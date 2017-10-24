@@ -14,7 +14,7 @@ namespace Host.Configuration
                     ClientId = "client",
 
                     // no interactive user, use the clientid/secret for authentication
-                    AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    AllowedGrantTypes = GrantTypes.ResourceOwnerPasswordAndClientCredentials,
 
                     // secret for authentication
                     ClientSecrets =
@@ -23,7 +23,7 @@ namespace Host.Configuration
                     },
 
                     // scopes that client has access to
-                    AllowedScopes = {"api1"}
+                    AllowedScopes = {"openid","api1"}
                 }
             };
         }
