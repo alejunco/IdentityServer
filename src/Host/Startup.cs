@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Host.Configuration;
-using IdentityServer4.Test;
-using Microsoft.AspNetCore.Authentication;
+﻿using Host.Configuration;
+using IdentityServer4.Quickstart.UI;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Serilog;
+using TestUsers = Host.Configuration.TestUsers;
 
 namespace Host
 {
@@ -21,10 +15,14 @@ namespace Host
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
+
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
+                
                 .AddTestUsers(TestUsers.Get())
                 .AddInMemoryClients(Clients.Get())
+                .AddInMemoryIdentityResources(Resources.GetIdentityResources())
                 .AddInMemoryApiResources(Resources.GetApiResources());
         }
 
@@ -35,8 +33,15 @@ namespace Host
             {
                 app.UseDeveloperExceptionPage();
             }
-   
+
+            app.UseStaticFiles();
+
+            AccountOptions.ShowLogoutPrompt = false;
+            AccountOptions.AutomaticRedirectAfterSignOut = true;
+
             app.UseIdentityServer();
+
+            app.UseMvcWithDefaultRoute();
         }
     }
 }
