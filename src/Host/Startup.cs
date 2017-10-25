@@ -23,7 +23,7 @@ namespace Host
 
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
-
+                .AddJwtBearerClientAuthentication()
                 .AddTestUsers(TestUsers.Get())
                 .AddInMemoryClients(Clients.Get())
                 .AddInMemoryIdentityResources(Resources.GetIdentityResources())

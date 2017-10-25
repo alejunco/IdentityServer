@@ -7,7 +7,9 @@ using System.Diagnostics;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace MVC.Controllers
 {
@@ -48,23 +50,18 @@ namespace MVC.Controllers
         [Route("getvalues")]
         public async Task<IActionResult> GetValues()
         {
-            using (HttpClient client = new HttpClient())
-            {
-                client.BaseAddress = new Uri("http://localhost:5001");
+            var token = await HttpContext.GetTokenAsync("access_token");
 
-                var contentType = new MediaTypeWithQualityHeaderValue("application/json");
-                client.DefaultRequestHeaders.Accept.Add(contentType);
+            var client = new HttpClient();
+            client.SetBearerToken(token);
 
-                
+            var response = await client.GetAsync("http://localhost:5001" + "/api/values");
 
-                var response = await client.GetAsync("/api/values");
+            var stringData = await response.Content.ReadAsStringAsync();
 
-                var stringData = await response.Content.ReadAsStringAsync();
+            var data = JsonConvert.DeserializeObject<List<string>>(stringData);
 
-                var data = JsonConvert.DeserializeObject<List<string>>(stringData);
-
-                return View(data);
-            }
+            return View(data);
         }
 
     }

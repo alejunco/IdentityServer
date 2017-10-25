@@ -23,14 +23,15 @@ namespace Host.Configuration
                     },
 
                     // scopes that client has access to
-                    AllowedScopes = {"openid","api1"}
+                    AllowedScopes = {"openid", "webApi" }
                 },
                 new Client
                 {
-                    ClientId = "openIdMvcClient",
+                    ClientId = "mvc.hybrid",
 
                     // no interactive user, use the clientid/secret for authentication
-                    AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,
+                    AllowedGrantTypes = GrantTypes.Hybrid,
+                    AllowAccessTokensViaBrowser = false,
 
                     // secret for authentication
                     ClientSecrets =
@@ -55,12 +56,16 @@ namespace Host.Configuration
                     // scopes that client has access to
                     AllowedScopes =
                     {
+                        "api1",
                         IdentityServer4.IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServer4.IdentityServerConstants.StandardScopes.OfflineAccess,
                         IdentityServer4.IdentityServerConstants.StandardScopes.Profile,
                         IdentityServer4.IdentityServerConstants.StandardScopes.Phone,
                         IdentityServer4.IdentityServerConstants.StandardScopes.Email
+                        
                     }
+                    
+                    
                 }
             };
         }

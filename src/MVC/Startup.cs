@@ -1,15 +1,15 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using IdentityModel;
+using Serilog;
 
 namespace MVC
 {
@@ -43,20 +43,23 @@ namespace MVC
                     options.ClientId = Configuration["IdentityServer:clientId"];
                     options.ClientSecret = Configuration["IdentityServer:clientSecret"];
 
-                    options.ResponseType = "id_token code"; // means Hybrid flow
+                    options.ResponseType = "code id_token"; // means Hybrid flow
 
                     options.SaveTokens = true;
                     options.GetClaimsFromUserInfoEndpoint = true;
 
                     options.TokenValidationParameters = new TokenValidationParameters
                     {
-                        NameClaimType = "name",
-                        RoleClaimType = "role"
+                        NameClaimType = JwtClaimTypes.Name,
+                        RoleClaimType = JwtClaimTypes.Role
                     };
 
-                    //                    options.Scope.Add("api1");
+                    options.Scope.Clear();
+                    options.Scope.Add("openid");
+                    options.Scope.Add("profile");
                     options.Scope.Add("phone");
                     options.Scope.Add("email");
+                    options.Scope.Add("api1");
                     options.Scope.Add("offline_access");
 
                     options.ClaimActions.Remove("amr");
@@ -79,7 +82,7 @@ namespace MVC
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-            
+
             app.UseStaticFiles();
 
             app.UseAuthentication();

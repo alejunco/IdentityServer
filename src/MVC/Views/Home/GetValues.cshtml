@@ -1,11 +1,14 @@
 ﻿@model List<string>
 
-
+<h1>Protected Values</h1>
 <ul>
-    @foreach (var value in Model)
+    @if (Model != null)
     {
-        <li>
-            <em>@value</em>
-        </li>
+         foreach (var value in Model)
+         {
+             <li>
+                 <em>@value</em>
+             </li>
+         }
     }
 </ul>

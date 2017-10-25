@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System.Threading.Tasks;
+using IdentityServer4.AccessTokenValidation;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -11,11 +13,6 @@ namespace WebAPI
     {
         public Startup(IConfiguration configuration)
         {
-            Log.Logger = new LoggerConfiguration()
-                .Enrich.FromLogContext()
-                .WriteTo.Console()
-                .CreateLogger();
-
             Configuration = configuration;
         }
 
@@ -24,19 +21,30 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddLogging(loggingBuilder =>
-                loggingBuilder.AddSerilog(dispose: true));
-
-            services.AddMvcCore()
+            services
+                .AddMvcCore()
                 .AddAuthorization()
                 .AddJsonFormatters();
 
-            services.AddAuthentication("Bearer")
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowEverything", builder =>
+                {
+                    builder.AllowAnyOrigin();
+                    builder.AllowAnyHeader();
+                    builder.AllowAnyMethod();
+                });
+            });
+            services.AddDistributedMemoryCache();
+
+            services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
                 .AddIdentityServerAuthentication(options =>
                 {
                     options.Authority = "http://localhost:5000";
                     options.RequireHttpsMetadata = false;
+
                     options.ApiName = "api1";
+                    options.ApiSecret = "secret";
                 });
         }
 
@@ -51,6 +59,8 @@ namespace WebAPI
             loggerfactory.AddSerilog();
 
             appLifetime.ApplicationStopped.Register(Log.CloseAndFlush);
+
+            app.UseCors("AllowEverything");
 
             app.UseAuthentication();
 

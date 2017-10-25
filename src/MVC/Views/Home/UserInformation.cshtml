@@ -5,7 +5,7 @@
     @foreach (var claim in User.Claims)
     {
         <li>
-            <em>@claim.Type</em>: @claim.Value
+            <em><b>@claim.Type</b></em>:&nbsp; @claim.Value
         </li>
     }
 </ul>
