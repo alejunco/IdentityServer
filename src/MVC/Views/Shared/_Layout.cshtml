@@ -40,18 +40,16 @@
                     {
                         <li role="presentation"><a href="/userinformation">@User.Identity.Name...</a></li>
                         <li role="presentation" class="active">
-                            <form method="post" style="margin-top: 8px;"asp-controller="Auth" asp-action="SignOut">
-                                <button type="submit" class="btn btn-primary">Sign Out</button>
+                            <form method="post" asp-controller="Auth" asp-action="SignOut">
+                                <button type="submit" class="btn btn-danger" style="margin-top: 8px;">Sign Out</button>
                             </form>
                         </li>
-@*                        <li>*@
-@*                            <a class="user-item"><i class="glyphicon glyphicon-user user-image"></i>&nbsp John</a>*@
-@*                        </li>*@
-@*                        <li><a asp-area="" asp-controller="Auth" asp-action="SignOut">Sign out</a></li>*@
                     }
                     else
                     {
-                        <li><a asp-area="" asp-controller="Auth" asp-action="SignIn">Log In</a></li>
+                        <li role="presentation" class="active">
+                            <a asp-controller="Auth" asp-action="SignIn" class="btn btn-primary">Sign In</a>
+                        </li>
                     }
 
                 </ul>

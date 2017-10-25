@@ -23,6 +23,9 @@ namespace Host.Configuration
             {
                 new IdentityResources.OpenId(),
                 new IdentityResources.Profile(),
+                new IdentityResources.Phone(),
+                new IdentityResources.Email()
+//                new IdentityResources.
             };
         }
     }

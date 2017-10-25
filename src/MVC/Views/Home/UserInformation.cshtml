@@ -1,11 +1,16 @@
-﻿
-    <h1>Welcome @User.Identity.Name</h1>
-    <p class="lead">Here are your claims</p>
-    <ul>
-        @foreach (var claim in User.Claims)
-        {
-            <li>
-                <em>@claim.Type</em>: @claim.Value
-            </li>
-        }
-    </ul>
+﻿@using Microsoft.AspNetCore.Authentication
+<h1>Welcome @User.Identity.Name</h1>
+<p class="lead">Here are your claims</p>
+<ul>
+    @foreach (var claim in User.Claims)
+    {
+        <li>
+            <em>@claim.Type</em>: @claim.Value
+        </li>
+    }
+</ul>
+<dt>access token</dt>
+<dd>@await ViewContext.HttpContext.GetTokenAsync("access_token")</dd>
+
+<dt>refresh token</dt>
+<dd>@await ViewContext.HttpContext.GetTokenAsync("refresh_token")</dd>

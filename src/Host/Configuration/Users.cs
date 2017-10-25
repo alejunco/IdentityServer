@@ -22,7 +22,14 @@ namespace Host.Configuration
                     IsActive = true,
                     Claims = new []
                     {
-                        new Claim("name", "Alex")
+                        new Claim(IdentityModel.JwtClaimTypes.Name, "Alejandro"),
+                        new Claim(IdentityModel.JwtClaimTypes.FamilyName, "Junco"),
+                        new Claim(IdentityModel.JwtClaimTypes.PhoneNumber, "+1 (786) 300-7263"),
+                        new Claim(IdentityModel.JwtClaimTypes.PhoneNumberVerified, "true"), 
+                        new Claim(IdentityModel.JwtClaimTypes.Email, "ale911115@gmail.com"),
+                        new Claim(IdentityModel.JwtClaimTypes.EmailVerified, "true"),
+                        new Claim(IdentityModel.JwtClaimTypes.BirthDate, "1991-11-15")
+
                     }
                 }
             };

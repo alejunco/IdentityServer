@@ -1,9 +1,13 @@
-﻿using Host.Configuration;
+﻿using System.Threading.Tasks;
+using Host.Configuration;
+using IdentityServer4.Models;
 using IdentityServer4.Quickstart.UI;
+using IdentityServer4.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Resources = Host.Configuration.Resources;
 using TestUsers = Host.Configuration.TestUsers;
 
 namespace Host
@@ -19,7 +23,7 @@ namespace Host
 
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
-                
+
                 .AddTestUsers(TestUsers.Get())
                 .AddInMemoryClients(Clients.Get())
                 .AddInMemoryIdentityResources(Resources.GetIdentityResources())

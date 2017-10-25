@@ -30,7 +30,7 @@ namespace Host.Configuration
                     ClientId = "openIdMvcClient",
 
                     // no interactive user, use the clientid/secret for authentication
-                    AllowedGrantTypes = GrantTypes.Implicit,
+                    AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,
 
                     // secret for authentication
                     ClientSecrets =
@@ -39,19 +39,28 @@ namespace Host.Configuration
                     },
 
                     // where to redirect to after login
-                    RedirectUris = new List<string>()
+                    RedirectUris =
                     {
                         "http://localhost:5002/signin-oidc"
                     },
 
                     // where to redirect to after logout
-                    PostLogoutRedirectUris = { "http://localhost:5002/signout-callback-oidc" },
+                    PostLogoutRedirectUris =
+                    {
+                        "http://localhost:5002/signout-callback-oidc"
+                    },
 
-                    AccessTokenLifetime = 10,
-                    IdentityTokenLifetime = 10,
-
+                    AllowOfflineAccess = true,
+                    AlwaysSendClientClaims = true,
                     // scopes that client has access to
-                    AllowedScopes = {"openid","profile"}
+                    AllowedScopes =
+                    {
+                        IdentityServer4.IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServer4.IdentityServerConstants.StandardScopes.OfflineAccess,
+                        IdentityServer4.IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServer4.IdentityServerConstants.StandardScopes.Phone,
+                        IdentityServer4.IdentityServerConstants.StandardScopes.Email
+                    }
                 }
             };
         }

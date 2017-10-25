@@ -1,17 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authentication.Cookies;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Serilog;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.IdentityModel.Tokens;
 
 namespace MVC
 {
@@ -43,9 +41,28 @@ namespace MVC
                     options.RequireHttpsMetadata = false;
 
                     options.ClientId = Configuration["IdentityServer:clientId"];
-                    options.SaveTokens = true;
+                    options.ClientSecret = Configuration["IdentityServer:clientSecret"];
 
-                    options.TokenValidationParameters.NameClaimType = "name";
+                    options.ResponseType = "id_token code"; // means Hybrid flow
+
+                    options.SaveTokens = true;
+                    options.GetClaimsFromUserInfoEndpoint = true;
+
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        NameClaimType = "name",
+                        RoleClaimType = "role"
+                    };
+
+                    //                    options.Scope.Add("api1");
+                    options.Scope.Add("phone");
+                    options.Scope.Add("email");
+                    options.Scope.Add("offline_access");
+
+                    options.ClaimActions.Remove("amr");
+                    //options.ClaimActions.MapJsonKey(ClaimTypes.Email, "email", ClaimValueTypes.Email);
+                    options.ClaimActions.MapJsonKey("phone_number", "phone_number");
+
                 })
                 .AddCookie();
         }
