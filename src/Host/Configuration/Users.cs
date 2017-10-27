@@ -29,7 +29,6 @@ namespace Host.Configuration
                         new Claim(IdentityModel.JwtClaimTypes.Email, "ale911115@gmail.com"),
                         new Claim(IdentityModel.JwtClaimTypes.EmailVerified, "true"),
                         new Claim(IdentityModel.JwtClaimTypes.BirthDate, "1991-11-15")
-
                     }
                 }
             };

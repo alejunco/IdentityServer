@@ -20,19 +20,20 @@ namespace Host
                 .MinimumLevel.Override("Microsoft.AspNetCore.Authentication", LogEventLevel.Information)
                 .Enrich.FromLogContext()
                 .WriteTo.Console()
+                .WriteTo.File(@"identityserver4_log.txt")
                 .CreateLogger();
 
             BuildWebHost(args).Run();
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)            
-                .UseStartup<Startup>()
+            WebHost.CreateDefaultBuilder(args)
                 .ConfigureLogging(builder =>
                 {
                     builder.ClearProviders();
                     builder.AddSerilog();
                 })
+                .UseStartup<Startup>()
                 .Build();
     }
 }
