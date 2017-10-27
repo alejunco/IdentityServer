@@ -1,22 +1,21 @@
-﻿using System;
-using Host.Configuration;
+﻿using Host.Configuration;
+using Host.Models;
+using Host.Services;
 using IdentityServer4.EntityFramework.DbContexts;
 using IdentityServer4.EntityFramework.Mappers;
 using IdentityServer4.Quickstart.UI;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System.Linq;
 using System.Reflection;
-using IdentityServer4;
-using Host.Models;
-using Host.Services;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using IdentityServer4.Services;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Host
 {
@@ -40,17 +39,15 @@ namespace Host
             services.AddMvc();
 
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(connectionString));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-//            services.AddAuthentication().AddCookie(CookieAuthenticationDefaults.AuthenticationScheme);
 
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
-//                .AddJwtBearerClientAuthentication()
                 .AddAspNetIdentity<ApplicationUser>()
                 // this adds the config data from DB (clients, resources, CORS)
                 .AddConfigurationStore(options =>
@@ -78,8 +75,7 @@ namespace Host
                 {
                     options.AppId = "195902224314434";
                     options.AppSecret = "0571faa864d4e349df763d2f4edd3016";
-                });
-            services.AddAuthentication()
+                })
                 .AddTwitter(options =>
                 {
                     options.ConsumerKey = "aRxZaNYjg4O7xdiDKMhaJnoKW";

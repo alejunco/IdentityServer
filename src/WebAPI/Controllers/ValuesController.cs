@@ -1,18 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using WebAPI.Services;
 
 namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        private readonly IValueService _valueService;
+        public ValuesController(IValueService valueService)
+        {
+            _valueService = valueService;
+        }
         // GET api/values
         [HttpGet]
         [Authorize]
-        public IEnumerable<string> Get()
+        public async Task<IActionResult> Get()
         {
-            return new string[] { "value1", "value2" };
+            return Ok(await _valueService.Get());
         }
 
         // GET api/values/5

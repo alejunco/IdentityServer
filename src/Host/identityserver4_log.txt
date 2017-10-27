@@ -7416,3 +7416,2060 @@ C:\Users\ajunco.PINSERVE\Documents\GitHub\IdentityServer\src\Host\Views\Manage\_
 2017-10-26 18:53:17.437 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
 2017-10-26 18:53:17.716 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
 2017-10-26 18:53:17.718 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:41:55.323 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-26 21:41:55.354 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-26 21:41:55.356 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-26 21:41:55.357 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-26 21:41:55.357 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-26 21:41:55.440 -04:00 [Debug] Starting token cleanup
+2017-10-26 21:47:08.994 -04:00 [Error] No consent request matching request: null
+2017-10-26 21:47:17.013 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 21:47:32.932 -04:00 [Information] AuthenticationScheme: "Twitter" was challenged.
+2017-10-26 21:47:39.999 -04:00 [Information] AuthenticationScheme: "Identity.External" signed in.
+2017-10-26 21:47:40.014 -04:00 [Information] AuthenticationScheme: "Identity.External" was successfully authenticated.
+2017-10-26 21:47:43.073 -04:00 [Information] AuthenticationScheme: "Identity.External" was successfully authenticated.
+2017-10-26 21:47:43.262 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 21:47:43.269 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 21:47:43.269 -04:00 [Information] User created an account using "Twitter" provider.
+2017-10-26 21:47:43.278 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:43.279 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:43.316 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:43.333 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:43.424 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:43.425 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:46.780 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:46.782 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:47.260 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:47.262 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:47.351 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:47.352 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:51.148 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:51.149 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:51.163 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:51.164 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:51.331 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:51.336 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:51.363 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:47:51.364 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:00.328 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:00.334 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:00.382 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 21:48:00.383 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 21:48:00.417 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:00.418 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:00.427 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:00.428 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:00.621 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:00.623 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:00.716 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:00.718 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:03.387 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:03.388 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:03.411 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:03.417 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:03.540 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:03.541 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:04.504 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:04.506 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:04.559 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:04.560 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:04.637 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:04.638 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:05.675 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:05.676 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:05.698 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:05.701 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:05.810 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:05.810 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:06.854 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:06.855 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:07.023 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:07.048 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:07.155 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:07.159 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:07.656 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:07.657 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:07.681 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:07.684 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:07.773 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:07.776 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:08.274 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:08.277 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:08.477 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:08.479 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:08.613 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:08.613 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:10.098 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:10.099 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:10.124 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:10.126 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:10.238 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:10.239 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:10.776 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:10.777 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:10.829 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 21:48:10.831 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 21:48:10.832 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 21:48:10.837 -04:00 [Information] User logged out.
+2017-10-26 21:48:14.788 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 21:48:22.991 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 21:48:22.992 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 21:48:22.993 -04:00 [Information] User logged in.
+2017-10-26 21:48:23.005 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:23.007 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:23.038 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:23.039 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:23.126 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:48:23.126 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:56:38.747 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-26 21:56:38.786 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-26 21:56:38.786 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-26 21:56:38.787 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-26 21:56:38.787 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-26 21:56:38.932 -04:00 [Debug] Starting token cleanup
+2017-10-26 21:56:43.985 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:56:44.002 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:56:47.431 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:56:47.450 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:56:52.632 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:56:52.635 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 21:57:41.583 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 21:57:41.586 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 21:57:41.589 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:05:05.146 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-26 22:05:05.182 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-26 22:05:05.188 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-26 22:05:05.189 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-26 22:05:05.190 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-26 22:05:05.375 -04:00 [Debug] Starting token cleanup
+2017-10-26 22:05:05.646 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:05:05.667 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:05:07.690 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:05:07.694 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:05:09.100 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:05:09.196 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:05:10.878 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:05:10.881 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:08:06.175 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-26 22:08:06.205 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-26 22:08:06.206 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-26 22:08:06.207 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-26 22:08:06.207 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-26 22:08:06.353 -04:00 [Debug] Starting token cleanup
+2017-10-26 22:08:20.531 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:08:20.548 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:08:23.667 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:08:23.676 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:08:23.758 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:08:23.760 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:08:31.692 -04:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type "Discovery"
+2017-10-26 22:08:31.696 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-26 22:08:31.697 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-26 22:08:31.702 -04:00 [Debug] Start discovery request
+2017-10-26 22:08:32.565 -04:00 [Debug] Found ["openid", "profile", "phone", "email", "api1"] as all scopes in database
+2017-10-26 22:08:32.774 -04:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type "Discovery"
+2017-10-26 22:08:32.775 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint"
+2017-10-26 22:08:32.775 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-26 22:08:32.781 -04:00 [Debug] Start key discovery request
+2017-10-26 22:08:32.842 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:08:32.844 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:08:32.846 -04:00 [Debug] Request path "/connect/endsession" matched to endpoint type "Endsession"
+2017-10-26 22:08:32.849 -04:00 [Debug] Endpoint enabled: "Endsession", successfully created handler: "IdentityServer4.Endpoints.EndSessionEndpoint"
+2017-10-26 22:08:32.850 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.EndSessionEndpoint" for "/connect/endsession"
+2017-10-26 22:08:32.864 -04:00 [Debug] Processing signout request for "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:08:32.881 -04:00 [Debug] Start end session request validation
+2017-10-26 22:08:32.886 -04:00 [Debug] Start identity token validation
+2017-10-26 22:08:33.029 -04:00 [Debug] "openIdMvcClient" found in database: False
+2017-10-26 22:08:33.032 -04:00 [Error] Unknown or disabled client: "openIdMvcClient".
+2017-10-26 22:08:33.042 -04:00 [Information] End session request validation failure: Error validating id token hint
+"{
+  \"SubjectId\": \"unknown\",
+  \"Raw\": {
+    \"post_logout_redirect_uri\": \"http://localhost:5002/signout-callback-oidc\",
+    \"id_token_hint\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6IjA0YmM1NGJkM2Q1YzkzMWRhMjM1MTY4YzM4MmFlM2Q3IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1MDg5MDg4MzYsImV4cCI6MTUwODkwOTEzNiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoib3BlbklkTXZjQ2xpZW50Iiwibm9uY2UiOiI2MzY0NDUwNTYzMTk2NDE4ODIuT1dWaU56TTNaV1V0T0dKaE5DMDBPV0V3TFdKbU1EY3RPRFZpWkRRME9HVTVNbVE1TmpCbU5UazJNRGt0T0RGbVppMDBaR0V5TFdKbU9EZ3RZamxrWlRZNE5tRXlZV1F3IiwiaWF0IjoxNTA4OTA4ODM2LCJhdF9oYXNoIjoiLVRSOWdlMmI1SWtTYVJHQ1pVMEVpZyIsInNpZCI6ImE4ZDI5MmZlNDkyOTY0NTQ2M2IwMjMyMDhlNWVkOWIwIiwic3ViIjoiMzY4NTc0ZDQtNjVjYi00NGM5LThmNGYtNDdhMGIwZDA0NDcxIiwiYXV0aF90aW1lIjoxNTA4OTA4ODMzLCJpZHAiOiJsb2NhbCIsImFtciI6WyJwd2QiXX0.TWHfdOpn85NRqqHFGHvFQWZDaY_YYaMETb8rI1yjj52LqEMivK1wdtyuPGWBMZyeZmcjYhs_Fw2WjpLn-LyseMl3D1b6rBs6y7uaG1g9H-FE4wB6DJSXWhs9JULekTbY8mLRkiihjViWH0RYJc6SRgfUwLkQ4ZW6XgAbkUo9h1a1CN-gAIz4mm0M61lGOjr8EnQ1RVWV_5Ifse0az_78VI6K4ca8zQGe1AlnCX0GiJ8FAW62p9FfqjKK1KWZLijzObPicbQGgIpYN-2qRvPfoe1XtP8BdQvSdGCBE0P_lGybj2KEoC0_AAK-Ivg1K85H13f38QwdEWdi2GkZ1hAH4w\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxap9paySNpcxh-NBFBoe4MaIZ4_YpMIsRjukbYhXgOmMdr6w7-casrgO4F0VTKLwZpcnoXZ_mb5IShGZj5-eSHq4uXw_YdhYb88T1FTLTqmztB2k-Rb8cIsqMvsT8pJXuQpp-oEEM655UKcgTduAUSb\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:08:33.044 -04:00 [Error] Error processing end session request "Invalid request"
+2017-10-26 22:08:33.059 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:08:33.061 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:15:38.438 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-26 22:15:38.465 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-26 22:15:38.466 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-26 22:15:38.467 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-26 22:15:38.467 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-26 22:15:38.558 -04:00 [Debug] Starting token cleanup
+2017-10-26 22:19:48.159 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:19:48.173 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:19:50.804 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:19:50.809 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:19:51.007 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:19:51.008 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:20:55.019 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:20:55.020 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:20:55.111 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:20:55.112 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:20:55.113 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:20:55.113 -04:00 [Information] User logged out.
+2017-10-26 22:20:57.411 -04:00 [Information] AuthenticationScheme: "Identity.Application" was challenged.
+2017-10-26 22:20:57.422 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:21:02.921 -04:00 [Information] AuthenticationScheme: "oidc" was challenged.
+2017-10-26 22:21:14.026 -04:00 [Debug] CORS request made for path: "/signin-oidc" from origin: "null" but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2017-10-26 22:21:14.158 -04:00 [Information] AuthenticationScheme: "Identity.External" signed in.
+2017-10-26 22:21:14.171 -04:00 [Information] AuthenticationScheme: "Identity.External" was successfully authenticated.
+2017-10-26 22:21:27.014 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:21:36.942 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:21:38.872 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:21:38.895 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:21:38.895 -04:00 [Information] User logged in.
+2017-10-26 22:21:38.901 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:21:38.902 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:21:38.925 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:21:38.926 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:21:39.000 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:21:39.000 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:21:40.259 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:21:40.260 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:21:40.261 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:21:40.262 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:21:40.263 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:21:40.264 -04:00 [Information] User logged out.
+2017-10-26 22:41:11.186 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-26 22:41:11.215 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-26 22:41:11.215 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-26 22:41:11.216 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-26 22:41:11.216 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-26 22:41:11.309 -04:00 [Debug] Starting token cleanup
+2017-10-26 22:41:46.696 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-26 22:41:46.724 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-26 22:41:46.725 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-26 22:41:46.726 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-26 22:41:46.726 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-26 22:41:46.808 -04:00 [Debug] Starting token cleanup
+2017-10-26 22:42:23.698 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-26 22:42:23.731 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-26 22:42:23.732 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-26 22:42:23.732 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-26 22:42:23.733 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-26 22:42:23.918 -04:00 [Debug] Starting token cleanup
+2017-10-26 22:42:25.403 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:42:33.317 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:42:33.337 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:42:33.339 -04:00 [Information] User logged in.
+2017-10-26 22:42:33.358 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:42:33.361 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:42:33.613 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:42:33.617 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:42:33.735 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:42:33.740 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:42:35.272 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:42:35.275 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:42:48.526 -04:00 [Warning] Heartbeat took longer than "00:00:01" at "10/27/2017 02:42:48 +00:00".
+2017-10-26 22:42:57.509 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:42:57.512 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:42:57.514 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:42:57.516 -04:00 [Information] User logged out.
+2017-10-26 22:44:29.783 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-26 22:44:29.811 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-26 22:44:29.812 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-26 22:44:29.813 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-26 22:44:29.813 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-26 22:44:29.946 -04:00 [Debug] Starting token cleanup
+2017-10-26 22:44:32.067 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:32.085 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:34.967 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:34.979 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:35.143 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:35.146 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:37.573 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:37.576 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:41.964 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:44:41.967 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:44:41.970 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:44:41.972 -04:00 [Information] User logged out.
+2017-10-26 22:44:52.815 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:44:55.015 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:44:55.022 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:44:55.024 -04:00 [Information] User logged in.
+2017-10-26 22:44:55.052 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:55.055 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:55.172 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:55.177 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:55.255 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:55.257 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:56.904 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:56.908 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:56.930 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:44:56.932 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:44:56.935 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:44:56.937 -04:00 [Information] User logged out.
+2017-10-26 22:44:57.809 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:44:59.158 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:44:59.159 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:44:59.161 -04:00 [Information] User logged in.
+2017-10-26 22:44:59.175 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:59.177 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:59.272 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:59.275 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:59.350 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:59.352 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:59.889 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:44:59.892 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:00.539 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:00.541 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:00.642 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:00.645 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:01.965 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:01.969 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:02.241 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:02.247 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:02.320 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:02.322 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:02.467 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:02.469 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:02.824 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:02.826 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:02.922 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:02.925 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:03.874 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:03.876 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:03.901 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:45:03.904 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:45:03.906 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:45:03.908 -04:00 [Information] User logged out.
+2017-10-26 22:45:19.903 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:45:21.746 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:45:21.747 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:45:21.749 -04:00 [Information] User logged in.
+2017-10-26 22:45:21.762 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:21.764 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:21.863 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:21.865 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:21.948 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:21.950 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:28.707 -04:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type "Discovery"
+2017-10-26 22:45:28.714 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-26 22:45:28.715 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-26 22:45:28.722 -04:00 [Debug] Start discovery request
+2017-10-26 22:45:29.594 -04:00 [Debug] Found ["openid", "profile", "phone", "email", "api1"] as all scopes in database
+2017-10-26 22:45:29.810 -04:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type "Discovery"
+2017-10-26 22:45:29.812 -04:00 [Debug] Endpoint enabled: "Discovery", successfully created handler: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint"
+2017-10-26 22:45:29.812 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-26 22:45:29.817 -04:00 [Debug] Start key discovery request
+2017-10-26 22:45:29.909 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:29.911 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:29.914 -04:00 [Debug] Request path "/connect/authorize" matched to endpoint type "Authorize"
+2017-10-26 22:45:29.920 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-26 22:45:29.920 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-26 22:45:29.927 -04:00 [Debug] Start authorize request
+2017-10-26 22:45:29.933 -04:00 [Debug] User in authorize request: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:45:29.940 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:45:30.516 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:45:30.540 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:45:30.541 -04:00 [Debug] No PKCE used.
+2017-10-26 22:45:30.636 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:45:30.892 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:45:30.944 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:45:31.060 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:45:31.067 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:45:31.079 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile phone email api1 offline_access\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxb1Ojf-vyJzAHtdVvZM7eHiyk5Z08qoQgNN4rQNcNBohfG4P3PhtLQhk5xyCAgjdCN-jSIe1oTeQHWpO59j6EzxKenDpmS6W_YqnUxXYTCrCejrcjC05LgCgcL6Y9RRhtsdqNaD_w4O91tkc7uOGgRIOqHzk6fJ7H26f8hN4SolMJZvIZH2QUpv8wtWK_i2FaTCNrVcb9NkWc1nrDcNGDLHdelsL3Vd4O2cnS8h3ps1NZz37SDUdbFDfO8cwAWyZgKTu8_JSVxTdLKj-eqSOX10\",
+  \"Nonce\": \"636446691298713493.ZWRkMjkxMWMtMWVlZC00OTUyLWIxZWYtMzIzOTliNTBjNDU2NzQ4ZDcwOGEtOTMwMS00NmE0LWJkOTAtMzFmODY2MDk5N2E1\",
+  \"SessionId\": \"9111fcd26bc43db156aa8f2d6e614285\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile phone email api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636446691298713493.ZWRkMjkxMWMtMWVlZC00OTUyLWIxZWYtMzIzOTliNTBjNDU2NzQ4ZDcwOGEtOTMwMS00NmE0LWJkOTAtMzFmODY2MDk5N2E1\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxb1Ojf-vyJzAHtdVvZM7eHiyk5Z08qoQgNN4rQNcNBohfG4P3PhtLQhk5xyCAgjdCN-jSIe1oTeQHWpO59j6EzxKenDpmS6W_YqnUxXYTCrCejrcjC05LgCgcL6Y9RRhtsdqNaD_w4O91tkc7uOGgRIOqHzk6fJ7H26f8hN4SolMJZvIZH2QUpv8wtWK_i2FaTCNrVcb9NkWc1nrDcNGDLHdelsL3Vd4O2cnS8h3ps1NZz37SDUdbFDfO8cwAWyZgKTu8_JSVxTdLKj-eqSOX10\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:45:31.130 -04:00 [Debug] Scopes contains offline_access, consent is required
+2017-10-26 22:45:31.131 -04:00 [Information] Showing consent: User has not yet consented
+2017-10-26 22:45:31.145 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:31.147 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:31.191 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:45:31.499 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:45:31.500 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:45:31.500 -04:00 [Debug] No PKCE used.
+2017-10-26 22:45:31.570 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:45:31.728 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:45:31.802 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:45:31.966 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:45:31.967 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:45:32.246 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:45:32.320 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:45:32.581 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:45:33.209 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:33.241 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:37.313 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:37.316 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:37.351 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:45:37.686 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:45:37.687 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:45:37.687 -04:00 [Debug] No PKCE used.
+2017-10-26 22:45:37.743 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:45:37.922 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:45:37.979 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:45:38.156 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:45:38.156 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:45:38.183 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:38.185 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:38.188 -04:00 [Debug] Request path "/connect/authorize/callback" matched to endpoint type "Authorize"
+2017-10-26 22:45:38.189 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint"
+2017-10-26 22:45:38.189 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint" for "/connect/authorize/callback"
+2017-10-26 22:45:38.196 -04:00 [Debug] Start authorize callback request
+2017-10-26 22:45:38.201 -04:00 [Debug] User in authorize request: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:45:38.202 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:45:38.415 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:45:38.416 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:45:38.416 -04:00 [Debug] No PKCE used.
+2017-10-26 22:45:38.459 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:45:38.581 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:45:38.628 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:45:38.741 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:45:38.742 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:45:38.743 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile phone email api1 offline_access\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxb1Ojf-vyJzAHtdVvZM7eHiyk5Z08qoQgNN4rQNcNBohfG4P3PhtLQhk5xyCAgjdCN-jSIe1oTeQHWpO59j6EzxKenDpmS6W_YqnUxXYTCrCejrcjC05LgCgcL6Y9RRhtsdqNaD_w4O91tkc7uOGgRIOqHzk6fJ7H26f8hN4SolMJZvIZH2QUpv8wtWK_i2FaTCNrVcb9NkWc1nrDcNGDLHdelsL3Vd4O2cnS8h3ps1NZz37SDUdbFDfO8cwAWyZgKTu8_JSVxTdLKj-eqSOX10\",
+  \"Nonce\": \"636446691298713493.ZWRkMjkxMWMtMWVlZC00OTUyLWIxZWYtMzIzOTliNTBjNDU2NzQ4ZDcwOGEtOTMwMS00NmE0LWJkOTAtMzFmODY2MDk5N2E1\",
+  \"SessionId\": \"9111fcd26bc43db156aa8f2d6e614285\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile phone email api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636446691298713493.ZWRkMjkxMWMtMWVlZC00OTUyLWIxZWYtMzIzOTliNTBjNDU2NzQ4ZDcwOGEtOTMwMS00NmE0LWJkOTAtMzFmODY2MDk5N2E1\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxb1Ojf-vyJzAHtdVvZM7eHiyk5Z08qoQgNN4rQNcNBohfG4P3PhtLQhk5xyCAgjdCN-jSIe1oTeQHWpO59j6EzxKenDpmS6W_YqnUxXYTCrCejrcjC05LgCgcL6Y9RRhtsdqNaD_w4O91tkc7uOGgRIOqHzk6fJ7H26f8hN4SolMJZvIZH2QUpv8wtWK_i2FaTCNrVcb9NkWc1nrDcNGDLHdelsL3Vd4O2cnS8h3ps1NZz37SDUdbFDfO8cwAWyZgKTu8_JSVxTdLKj-eqSOX10\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:45:38.770 -04:00 [Debug] Scopes contains offline_access, consent is required
+2017-10-26 22:45:38.777 -04:00 [Information] User consented to scopes: ["openid", "profile", "phone", "email", "api1", "offline_access"]
+2017-10-26 22:45:38.785 -04:00 [Debug] Client allows remembering consent, and no scopes provided. Removing consent from consent store for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:45:38.871 -04:00 [Debug] no "VTOFnaJ2E/1AVtJcerS5MBjhQlVhNYEeXwOdFJBlH54=" persisted grant found in database
+2017-10-26 22:45:38.879 -04:00 [Debug] Creating Hybrid Flow response.
+2017-10-26 22:45:39.015 -04:00 [Debug] "y3rrMORmExJbuE1dPzqLdbZzhzawP6gVHpwM8RICAOU=" not found in database
+2017-10-26 22:45:39.133 -04:00 [Debug] Creating Implicit Flow response.
+2017-10-26 22:45:39.143 -04:00 [Debug] Getting claims for identity token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6" and client: "mvc.hybrid"
+2017-10-26 22:45:39.145 -04:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-26 22:45:39.194 -04:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxb1Ojf-vyJzAHtdVvZM7eHiyk5Z08qoQgNN4rQNcNBohfG4P3PhtLQhk5xyCAgjdCN-jSIe1oTeQHWpO59j6EzxKenDpmS6W_YqnUxXYTCrCejrcjC05LgCgcL6Y9RRhtsdqNaD_w4O91tkc7uOGgRIOqHzk6fJ7H26f8hN4SolMJZvIZH2QUpv8wtWK_i2FaTCNrVcb9NkWc1nrDcNGDLHdelsL3Vd4O2cnS8h3ps1NZz37SDUdbFDfO8cwAWyZgKTu8_JSVxTdLKj-eqSOX10\",
+  \"Scope\": \"openid profile phone email api1 offline_access\"
+}"
+2017-10-26 22:45:39.207 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:45:39.207 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:45:39.386 -04:00 [Debug] Request path "/connect/token" matched to endpoint type "Token"
+2017-10-26 22:45:39.393 -04:00 [Debug] Endpoint enabled: "Token", successfully created handler: "IdentityServer4.Endpoints.TokenEndpoint"
+2017-10-26 22:45:39.394 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.TokenEndpoint" for "/connect/token"
+2017-10-26 22:45:39.406 -04:00 [Debug] Start token request.
+2017-10-26 22:45:39.411 -04:00 [Debug] Start client validation
+2017-10-26 22:45:39.416 -04:00 [Debug] Start parsing Basic Authentication secret
+2017-10-26 22:45:39.419 -04:00 [Debug] Start parsing for secret in post body
+2017-10-26 22:45:39.419 -04:00 [Debug] Parser found secret: "PostBodySecretParser"
+2017-10-26 22:45:39.420 -04:00 [Debug] Secret id found: "mvc.hybrid"
+2017-10-26 22:45:39.618 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:45:39.626 -04:00 [Debug] Secret validator success: "HashedSharedSecretValidator"
+2017-10-26 22:45:39.626 -04:00 [Debug] Client validation success
+2017-10-26 22:45:39.631 -04:00 [Debug] Start token request validation
+2017-10-26 22:45:39.640 -04:00 [Debug] Start validation of authorization code token request
+2017-10-26 22:45:39.676 -04:00 [Debug] "y3rrMORmExJbuE1dPzqLdbZzhzawP6gVHpwM8RICAOU=" found in database: True
+2017-10-26 22:45:39.714 -04:00 [Debug] removing "y3rrMORmExJbuE1dPzqLdbZzhzawP6gVHpwM8RICAOU=" persisted grant from database
+2017-10-26 22:45:39.773 -04:00 [Debug] Validation of authorization code token request success
+2017-10-26 22:45:39.781 -04:00 [Information] Token request validation success
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"GrantType\": \"authorization_code\",
+  \"AuthorizationCode\": \"0266704d978b7fdc3092807fbda3a11e6911ae143321858997f6fe352447cc1c\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"client_secret\": \"***REDACTED***\",
+    \"code\": \"0266704d978b7fdc3092807fbda3a11e6911ae143321858997f6fe352447cc1c\",
+    \"grant_type\": \"authorization_code\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\"
+  }
+}"
+2017-10-26 22:45:39.973 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:45:40.016 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:45:40.131 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:45:40.140 -04:00 [Debug] Getting claims for access token for client: "mvc.hybrid"
+2017-10-26 22:45:40.141 -04:00 [Debug] Getting claims for access token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:45:40.206 -04:00 [Debug] Creating refresh token
+2017-10-26 22:45:40.207 -04:00 [Debug] Setting an absolute lifetime: 2592000
+2017-10-26 22:45:40.236 -04:00 [Debug] "bml8VX88z9475TdtO3QejuYme+f1/wzSmV1wQnvK1v0=" not found in database
+2017-10-26 22:45:40.411 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:45:40.440 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:45:40.508 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:45:40.509 -04:00 [Debug] Getting claims for identity token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6" and client: "mvc.hybrid"
+2017-10-26 22:45:40.510 -04:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-26 22:45:40.516 -04:00 [Debug] Token request success.
+2017-10-26 22:45:40.532 -04:00 [Debug] Request path "/connect/userinfo" matched to endpoint type "Userinfo"
+2017-10-26 22:45:40.534 -04:00 [Debug] Endpoint enabled: "Userinfo", successfully created handler: "IdentityServer4.Endpoints.UserInfoEndpoint"
+2017-10-26 22:45:40.535 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.UserInfoEndpoint" for "/connect/userinfo"
+2017-10-26 22:45:40.544 -04:00 [Debug] Start userinfo request
+2017-10-26 22:45:40.555 -04:00 [Debug] Bearer token found in header
+2017-10-26 22:45:40.792 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:45:40.967 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:45:40.971 -04:00 [Debug] Token validation success
+"{
+  \"ValidateLifetime\": true,
+  \"AccessTokenType\": \"Jwt\",
+  \"ExpectedScope\": \"openid\",
+  \"Claims\": {
+    \"nbf\": 1509072340,
+    \"exp\": 1509075940,
+    \"iss\": \"http://localhost:5000\",
+    \"aud\": [
+      \"http://localhost:5000/resources\",
+      \"api1\"
+    ],
+    \"client_id\": \"mvc.hybrid\",
+    \"sub\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+    \"auth_time\": 1509072321,
+    \"idp\": \"local\",
+    \"scope\": [
+      \"openid\",
+      \"profile\",
+      \"phone\",
+      \"email\",
+      \"api1\",
+      \"offline_access\"
+    ],
+    \"amr\": \"pwd\"
+  }
+}"
+2017-10-26 22:45:40.977 -04:00 [Debug] Creating userinfo response
+2017-10-26 22:45:40.981 -04:00 [Debug] Scopes in access token: "openid profile phone email api1 offline_access"
+2017-10-26 22:45:41.021 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:45:41.024 -04:00 [Debug] Requested claim types: "sub updated_at locale zoneinfo birthdate gender website profile preferred_username nickname middle_name given_name family_name name picture phone_number_verified phone_number email email_verified"
+2017-10-26 22:45:41.094 -04:00 [Information] Profile service returned to the following claim types: "sub preferred_username name email email_verified"
+2017-10-26 22:45:41.096 -04:00 [Debug] End userinfo request
+2017-10-26 22:45:49.178 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:49.181 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:49.183 -04:00 [Debug] Request path "/connect/endsession" matched to endpoint type "Endsession"
+2017-10-26 22:45:49.185 -04:00 [Debug] Endpoint enabled: "Endsession", successfully created handler: "IdentityServer4.Endpoints.EndSessionEndpoint"
+2017-10-26 22:45:49.186 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.EndSessionEndpoint" for "/connect/endsession"
+2017-10-26 22:45:49.192 -04:00 [Debug] Processing signout request for "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:45:49.198 -04:00 [Debug] Start end session request validation
+2017-10-26 22:45:49.203 -04:00 [Debug] Start identity token validation
+2017-10-26 22:45:49.399 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:45:49.400 -04:00 [Debug] Client found: "mvc.hybrid" / null
+2017-10-26 22:45:49.402 -04:00 [Debug] Calling into custom token validator: "IdentityServer4.Validation.DefaultCustomTokenValidator"
+2017-10-26 22:45:49.431 -04:00 [Debug] Token validation success
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"ValidateLifetime\": false,
+  \"Claims\": {
+    \"nbf\": 1509072340,
+    \"exp\": 1509072640,
+    \"iss\": \"http://localhost:5000\",
+    \"aud\": \"mvc.hybrid\",
+    \"nonce\": \"636446691298713493.ZWRkMjkxMWMtMWVlZC00OTUyLWIxZWYtMzIzOTliNTBjNDU2NzQ4ZDcwOGEtOTMwMS00NmE0LWJkOTAtMzFmODY2MDk5N2E1\",
+    \"iat\": 1509072340,
+    \"at_hash\": \"mEtOJIEFMvZP1EvmNJMl8A\",
+    \"sid\": \"9111fcd26bc43db156aa8f2d6e614285\",
+    \"sub\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+    \"auth_time\": 1509072321,
+    \"idp\": \"local\",
+    \"amr\": \"pwd\"
+  }
+}"
+2017-10-26 22:45:49.437 -04:00 [Information] End session request validation success
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"PostLogOutUri\": \"http://localhost:5002/signout-callback-oidc\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaCE3OxWRZdym2yc3KYODhozzq6Vf1I66HY-pFyvinFNMQOBbzTT3G4394e3Wgaw4cNMGuLbYLJvvdFoWNu8WxfCs0H5GdFxVQy3jWrSSft_c3AiNIsUFq-WVH3kV0g11gvnrlObpXy-7JdCOlMbWq2\",
+  \"Raw\": {
+    \"post_logout_redirect_uri\": \"http://localhost:5002/signout-callback-oidc\",
+    \"id_token_hint\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6IjA0YmM1NGJkM2Q1YzkzMWRhMjM1MTY4YzM4MmFlM2Q3IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1MDkwNzIzNDAsImV4cCI6MTUwOTA3MjY0MCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoibXZjLmh5YnJpZCIsIm5vbmNlIjoiNjM2NDQ2NjkxMjk4NzEzNDkzLlpXUmtNamt4TVdNdE1XVmxaQzAwT1RVeUxXSXhaV1l0TXpJek9UbGlOVEJqTkRVMk56UTRaRGN3T0dFdE9UTXdNUzAwTm1FMExXSmtPVEF0TXpGbU9EWTJNRGs1TjJFMSIsImlhdCI6MTUwOTA3MjM0MCwiYXRfaGFzaCI6Im1FdE9KSUVGTXZaUDFFdm1OSk1sOEEiLCJzaWQiOiI5MTExZmNkMjZiYzQzZGIxNTZhYThmMmQ2ZTYxNDI4NSIsInN1YiI6ImJjOGEzNDUzLTY2YTYtNDhlOS04NGU2LWIwOGJkMjM5MjFlNiIsImF1dGhfdGltZSI6MTUwOTA3MjMyMSwiaWRwIjoibG9jYWwiLCJhbXIiOlsicHdkIl19.FSrkIGzEUujQw_VpFw6aWZ-BV8MDzVEODcJml-iKsDdSx9kP82eE2Yao__wZqCrmXUqPQ7qmqbPAiM5N5sjyCURQ8yKx6Ex3Q-BD9IzReJsBTlM62UvPiVBaubd1l60BdBjrUyLyod4LOs3GH9ek5VjPdgHHRhXSLjaIoqNJ45C8yalE2Zk36HrWBziqLtWlKI8ou_wKJA6K1aodbwJ-8ljdX3Y8CTtbf0wBdWvV-1NTLsUBL1CTb1RApw2ELYaBwf8oHgFKNRpFHSrDXf72IRsOBbmtt2cdZMjAENQCJUhqx2cJAr30XdSyXqV5ih21OYTXbmaoRH-yd0K8Pc3G3w\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaCE3OxWRZdym2yc3KYODhozzq6Vf1I66HY-pFyvinFNMQOBbzTT3G4394e3Wgaw4cNMGuLbYLJvvdFoWNu8WxfCs0H5GdFxVQy3jWrSSft_c3AiNIsUFq-WVH3kV0g11gvnrlObpXy-7JdCOlMbWq2\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:45:49.440 -04:00 [Debug] Success validating end session request from "mvc.hybrid"
+2017-10-26 22:45:49.469 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:49.472 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:45:49.507 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:45:49.509 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:45:49.512 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:45:49.514 -04:00 [Information] User logged out.
+2017-10-26 22:45:49.735 -04:00 [Debug] Request path "/connect/endsession/callback" matched to endpoint type "Endsession"
+2017-10-26 22:45:49.737 -04:00 [Debug] Endpoint enabled: "Endsession", successfully created handler: "IdentityServer4.Endpoints.EndSessionCallbackEndpoint"
+2017-10-26 22:45:49.738 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.EndSessionCallbackEndpoint" for "/connect/endsession/callback"
+2017-10-26 22:45:49.745 -04:00 [Debug] Processing signout callback request
+2017-10-26 22:45:50.055 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:45:50.056 -04:00 [Debug] No client front-channel logout URLs
+2017-10-26 22:45:50.056 -04:00 [Debug] No client back-channel logout URLs
+2017-10-26 22:45:50.056 -04:00 [Information] Successful signout callback.
+2017-10-26 22:45:50.058 -04:00 [Debug] No client front-channel iframe urls
+2017-10-26 22:45:50.058 -04:00 [Debug] No client back-channel iframe urls
+2017-10-26 22:45:55.612 -04:00 [Debug] Request path "/connect/authorize" matched to endpoint type "Authorize"
+2017-10-26 22:45:55.613 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-26 22:45:55.613 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-26 22:45:55.616 -04:00 [Debug] Start authorize request
+2017-10-26 22:45:55.617 -04:00 [Debug] No user present in authorize request
+2017-10-26 22:45:55.617 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:45:55.821 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:45:55.822 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:45:55.822 -04:00 [Debug] No PKCE used.
+2017-10-26 22:45:55.880 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:45:55.975 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:45:56.030 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:45:56.156 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:45:56.157 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:45:56.157 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile phone email api1 offline_access\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaxNJtP46_K3TCwD6h7sYiu2a6DFZWW3VbiFl6ujS8_XIPYb5qlpyrGpEpqobxXd6Wf6HdUg8L3uQfWDAojD6waeUo7_eangQIuh7nCVk9dZ_XPmR27VPIIUqbLNrFbokBNXGFjAsCS8aF6Gcc0ClVe9OxgYW82aY-sJmV3NFu3zSgdaooUGN19Qd0uHW_5YDRAgKBneGwifeuhJp0RFiZca717VIqXpd1N_QYSL7t6-g_whttrjwe_T-OlJanK3z2lHxMGu-whQttWwIXEoGJO\",
+  \"Nonce\": \"636446691556030832.ZGY3ZTM0NGQtNTc3Mi00YjdiLWFkZTctM2U5ZDcwYTk0MjhjN2QyMDAxMWItN2M4Ny00Yjc5LWJjOGYtMGYwZjFmMDZhNWJj\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile phone email api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636446691556030832.ZGY3ZTM0NGQtNTc3Mi00YjdiLWFkZTctM2U5ZDcwYTk0MjhjN2QyMDAxMWItN2M4Ny00Yjc5LWJjOGYtMGYwZjFmMDZhNWJj\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaxNJtP46_K3TCwD6h7sYiu2a6DFZWW3VbiFl6ujS8_XIPYb5qlpyrGpEpqobxXd6Wf6HdUg8L3uQfWDAojD6waeUo7_eangQIuh7nCVk9dZ_XPmR27VPIIUqbLNrFbokBNXGFjAsCS8aF6Gcc0ClVe9OxgYW82aY-sJmV3NFu3zSgdaooUGN19Qd0uHW_5YDRAgKBneGwifeuhJp0RFiZca717VIqXpd1N_QYSL7t6-g_whttrjwe_T-OlJanK3z2lHxMGu-whQttWwIXEoGJO\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:45:56.161 -04:00 [Information] Showing login: User is not authenticated
+2017-10-26 22:45:56.196 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:46:03.293 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:46:03.295 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:46:03.296 -04:00 [Information] User logged in.
+2017-10-26 22:46:03.309 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:46:03.311 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:46:03.313 -04:00 [Debug] Request path "/connect/authorize/callback" matched to endpoint type "Authorize"
+2017-10-26 22:46:03.314 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint"
+2017-10-26 22:46:03.315 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint" for "/connect/authorize/callback"
+2017-10-26 22:46:03.317 -04:00 [Debug] Start authorize callback request
+2017-10-26 22:46:03.317 -04:00 [Debug] User in authorize request: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:46:03.318 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:46:03.549 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:46:03.550 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:46:03.550 -04:00 [Debug] No PKCE used.
+2017-10-26 22:46:03.592 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:46:03.712 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:46:03.749 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:46:03.840 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:46:03.841 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:46:03.841 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile phone email api1 offline_access\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaxNJtP46_K3TCwD6h7sYiu2a6DFZWW3VbiFl6ujS8_XIPYb5qlpyrGpEpqobxXd6Wf6HdUg8L3uQfWDAojD6waeUo7_eangQIuh7nCVk9dZ_XPmR27VPIIUqbLNrFbokBNXGFjAsCS8aF6Gcc0ClVe9OxgYW82aY-sJmV3NFu3zSgdaooUGN19Qd0uHW_5YDRAgKBneGwifeuhJp0RFiZca717VIqXpd1N_QYSL7t6-g_whttrjwe_T-OlJanK3z2lHxMGu-whQttWwIXEoGJO\",
+  \"Nonce\": \"636446691556030832.ZGY3ZTM0NGQtNTc3Mi00YjdiLWFkZTctM2U5ZDcwYTk0MjhjN2QyMDAxMWItN2M4Ny00Yjc5LWJjOGYtMGYwZjFmMDZhNWJj\",
+  \"SessionId\": \"dec3592501c8e30de8137be3641999e4\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile phone email api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636446691556030832.ZGY3ZTM0NGQtNTc3Mi00YjdiLWFkZTctM2U5ZDcwYTk0MjhjN2QyMDAxMWItN2M4Ny00Yjc5LWJjOGYtMGYwZjFmMDZhNWJj\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaxNJtP46_K3TCwD6h7sYiu2a6DFZWW3VbiFl6ujS8_XIPYb5qlpyrGpEpqobxXd6Wf6HdUg8L3uQfWDAojD6waeUo7_eangQIuh7nCVk9dZ_XPmR27VPIIUqbLNrFbokBNXGFjAsCS8aF6Gcc0ClVe9OxgYW82aY-sJmV3NFu3zSgdaooUGN19Qd0uHW_5YDRAgKBneGwifeuhJp0RFiZca717VIqXpd1N_QYSL7t6-g_whttrjwe_T-OlJanK3z2lHxMGu-whQttWwIXEoGJO\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:46:03.899 -04:00 [Debug] Scopes contains offline_access, consent is required
+2017-10-26 22:46:03.900 -04:00 [Information] Showing consent: User has not yet consented
+2017-10-26 22:46:03.909 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:46:03.911 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:46:03.961 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:46:04.704 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:46:04.704 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:46:04.705 -04:00 [Debug] No PKCE used.
+2017-10-26 22:46:04.842 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:46:05.457 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:46:05.695 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:46:06.085 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:46:06.085 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:46:06.753 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:46:06.906 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:46:07.242 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:46:07.281 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:46:07.288 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:46:07.461 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:46:07.468 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:46:55.882 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:46:55.884 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:46:55.910 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:46:56.222 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:46:56.222 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:46:56.223 -04:00 [Debug] No PKCE used.
+2017-10-26 22:46:56.283 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:46:56.466 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:46:56.527 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:46:56.702 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:46:56.703 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:46:56.719 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:46:56.721 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:46:56.723 -04:00 [Debug] Request path "/connect/authorize/callback" matched to endpoint type "Authorize"
+2017-10-26 22:46:56.724 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint"
+2017-10-26 22:46:56.725 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint" for "/connect/authorize/callback"
+2017-10-26 22:46:56.728 -04:00 [Debug] Start authorize callback request
+2017-10-26 22:46:56.729 -04:00 [Debug] User in authorize request: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:46:56.730 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:46:56.979 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:46:56.979 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:46:56.980 -04:00 [Debug] No PKCE used.
+2017-10-26 22:46:57.040 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:46:57.163 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:46:57.201 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:46:57.291 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:46:57.292 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:46:57.292 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile phone email api1 offline_access\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaxNJtP46_K3TCwD6h7sYiu2a6DFZWW3VbiFl6ujS8_XIPYb5qlpyrGpEpqobxXd6Wf6HdUg8L3uQfWDAojD6waeUo7_eangQIuh7nCVk9dZ_XPmR27VPIIUqbLNrFbokBNXGFjAsCS8aF6Gcc0ClVe9OxgYW82aY-sJmV3NFu3zSgdaooUGN19Qd0uHW_5YDRAgKBneGwifeuhJp0RFiZca717VIqXpd1N_QYSL7t6-g_whttrjwe_T-OlJanK3z2lHxMGu-whQttWwIXEoGJO\",
+  \"Nonce\": \"636446691556030832.ZGY3ZTM0NGQtNTc3Mi00YjdiLWFkZTctM2U5ZDcwYTk0MjhjN2QyMDAxMWItN2M4Ny00Yjc5LWJjOGYtMGYwZjFmMDZhNWJj\",
+  \"SessionId\": \"dec3592501c8e30de8137be3641999e4\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile phone email api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636446691556030832.ZGY3ZTM0NGQtNTc3Mi00YjdiLWFkZTctM2U5ZDcwYTk0MjhjN2QyMDAxMWItN2M4Ny00Yjc5LWJjOGYtMGYwZjFmMDZhNWJj\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaxNJtP46_K3TCwD6h7sYiu2a6DFZWW3VbiFl6ujS8_XIPYb5qlpyrGpEpqobxXd6Wf6HdUg8L3uQfWDAojD6waeUo7_eangQIuh7nCVk9dZ_XPmR27VPIIUqbLNrFbokBNXGFjAsCS8aF6Gcc0ClVe9OxgYW82aY-sJmV3NFu3zSgdaooUGN19Qd0uHW_5YDRAgKBneGwifeuhJp0RFiZca717VIqXpd1N_QYSL7t6-g_whttrjwe_T-OlJanK3z2lHxMGu-whQttWwIXEoGJO\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:46:57.319 -04:00 [Debug] Scopes contains offline_access, consent is required
+2017-10-26 22:46:57.320 -04:00 [Information] User consented to scopes: ["openid", "profile", "phone", "email", "api1", "offline_access"]
+2017-10-26 22:46:57.323 -04:00 [Debug] Client allows remembering consent, and no scopes provided. Removing consent from consent store for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:46:57.357 -04:00 [Debug] no "VTOFnaJ2E/1AVtJcerS5MBjhQlVhNYEeXwOdFJBlH54=" persisted grant found in database
+2017-10-26 22:46:57.358 -04:00 [Debug] Creating Hybrid Flow response.
+2017-10-26 22:46:57.424 -04:00 [Debug] "I/0AlrW+R9CcrehvU9K9TWIf6lGaR0WW7STOfKBC2Ok=" not found in database
+2017-10-26 22:46:57.454 -04:00 [Debug] Creating Implicit Flow response.
+2017-10-26 22:46:57.455 -04:00 [Debug] Getting claims for identity token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6" and client: "mvc.hybrid"
+2017-10-26 22:46:57.455 -04:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-26 22:46:57.458 -04:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaxNJtP46_K3TCwD6h7sYiu2a6DFZWW3VbiFl6ujS8_XIPYb5qlpyrGpEpqobxXd6Wf6HdUg8L3uQfWDAojD6waeUo7_eangQIuh7nCVk9dZ_XPmR27VPIIUqbLNrFbokBNXGFjAsCS8aF6Gcc0ClVe9OxgYW82aY-sJmV3NFu3zSgdaooUGN19Qd0uHW_5YDRAgKBneGwifeuhJp0RFiZca717VIqXpd1N_QYSL7t6-g_whttrjwe_T-OlJanK3z2lHxMGu-whQttWwIXEoGJO\",
+  \"Scope\": \"openid profile phone email api1 offline_access\"
+}"
+2017-10-26 22:46:57.461 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:46:57.461 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:46:57.590 -04:00 [Debug] Request path "/connect/token" matched to endpoint type "Token"
+2017-10-26 22:46:57.592 -04:00 [Debug] Endpoint enabled: "Token", successfully created handler: "IdentityServer4.Endpoints.TokenEndpoint"
+2017-10-26 22:46:57.594 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.TokenEndpoint" for "/connect/token"
+2017-10-26 22:46:57.642 -04:00 [Debug] Start token request.
+2017-10-26 22:46:57.652 -04:00 [Debug] Start client validation
+2017-10-26 22:46:57.653 -04:00 [Debug] Start parsing Basic Authentication secret
+2017-10-26 22:46:57.654 -04:00 [Debug] Start parsing for secret in post body
+2017-10-26 22:46:57.654 -04:00 [Debug] Parser found secret: "PostBodySecretParser"
+2017-10-26 22:46:57.655 -04:00 [Debug] Secret id found: "mvc.hybrid"
+2017-10-26 22:46:57.916 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:46:57.916 -04:00 [Debug] Secret validator success: "HashedSharedSecretValidator"
+2017-10-26 22:46:57.917 -04:00 [Debug] Client validation success
+2017-10-26 22:46:57.917 -04:00 [Debug] Start token request validation
+2017-10-26 22:46:57.917 -04:00 [Debug] Start validation of authorization code token request
+2017-10-26 22:46:57.936 -04:00 [Debug] "I/0AlrW+R9CcrehvU9K9TWIf6lGaR0WW7STOfKBC2Ok=" found in database: True
+2017-10-26 22:46:57.962 -04:00 [Debug] removing "I/0AlrW+R9CcrehvU9K9TWIf6lGaR0WW7STOfKBC2Ok=" persisted grant from database
+2017-10-26 22:46:58.006 -04:00 [Debug] Validation of authorization code token request success
+2017-10-26 22:46:58.007 -04:00 [Information] Token request validation success
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"GrantType\": \"authorization_code\",
+  \"AuthorizationCode\": \"4866ec773d53e49d3dd0e950c2d7c329d2de9a9cdbfe3a3cb957bfa23a513b04\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"client_secret\": \"***REDACTED***\",
+    \"code\": \"4866ec773d53e49d3dd0e950c2d7c329d2de9a9cdbfe3a3cb957bfa23a513b04\",
+    \"grant_type\": \"authorization_code\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\"
+  }
+}"
+2017-10-26 22:46:58.420 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:46:58.492 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:46:58.691 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:46:58.692 -04:00 [Debug] Getting claims for access token for client: "mvc.hybrid"
+2017-10-26 22:46:58.692 -04:00 [Debug] Getting claims for access token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:46:58.758 -04:00 [Debug] Creating refresh token
+2017-10-26 22:46:58.759 -04:00 [Debug] Setting an absolute lifetime: 2592000
+2017-10-26 22:46:58.800 -04:00 [Debug] "Ky6wVb6IEGM8qIQHedtgp75I9PW5l66CrkMfi+uTYVE=" not found in database
+2017-10-26 22:46:59.232 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:46:59.303 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:46:59.499 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:46:59.499 -04:00 [Debug] Getting claims for identity token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6" and client: "mvc.hybrid"
+2017-10-26 22:46:59.500 -04:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-26 22:46:59.503 -04:00 [Debug] Token request success.
+2017-10-26 22:46:59.510 -04:00 [Debug] Request path "/connect/userinfo" matched to endpoint type "Userinfo"
+2017-10-26 22:46:59.511 -04:00 [Debug] Endpoint enabled: "Userinfo", successfully created handler: "IdentityServer4.Endpoints.UserInfoEndpoint"
+2017-10-26 22:46:59.512 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.UserInfoEndpoint" for "/connect/userinfo"
+2017-10-26 22:46:59.514 -04:00 [Debug] Start userinfo request
+2017-10-26 22:46:59.514 -04:00 [Debug] Bearer token found in header
+2017-10-26 22:47:00.128 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:47:00.601 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:47:00.602 -04:00 [Debug] Token validation success
+"{
+  \"ValidateLifetime\": true,
+  \"AccessTokenType\": \"Jwt\",
+  \"ExpectedScope\": \"openid\",
+  \"Claims\": {
+    \"nbf\": 1509072418,
+    \"exp\": 1509076018,
+    \"iss\": \"http://localhost:5000\",
+    \"aud\": [
+      \"http://localhost:5000/resources\",
+      \"api1\"
+    ],
+    \"client_id\": \"mvc.hybrid\",
+    \"sub\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+    \"auth_time\": 1509072363,
+    \"idp\": \"local\",
+    \"scope\": [
+      \"openid\",
+      \"profile\",
+      \"phone\",
+      \"email\",
+      \"api1\",
+      \"offline_access\"
+    ],
+    \"amr\": \"pwd\"
+  }
+}"
+2017-10-26 22:47:00.602 -04:00 [Debug] Creating userinfo response
+2017-10-26 22:47:00.603 -04:00 [Debug] Scopes in access token: "openid profile phone email api1 offline_access"
+2017-10-26 22:47:00.699 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:47:00.702 -04:00 [Debug] Requested claim types: "sub updated_at locale zoneinfo birthdate gender website profile preferred_username nickname middle_name given_name family_name name picture phone_number_verified phone_number email email_verified"
+2017-10-26 22:47:00.784 -04:00 [Information] Profile service returned to the following claim types: "sub preferred_username name email email_verified"
+2017-10-26 22:47:00.787 -04:00 [Debug] End userinfo request
+2017-10-26 22:47:11.451 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:47:11.453 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:47:11.455 -04:00 [Debug] Request path "/connect/endsession" matched to endpoint type "Endsession"
+2017-10-26 22:47:11.456 -04:00 [Debug] Endpoint enabled: "Endsession", successfully created handler: "IdentityServer4.Endpoints.EndSessionEndpoint"
+2017-10-26 22:47:11.456 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.EndSessionEndpoint" for "/connect/endsession"
+2017-10-26 22:47:11.459 -04:00 [Debug] Processing signout request for "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:47:11.460 -04:00 [Debug] Start end session request validation
+2017-10-26 22:47:11.460 -04:00 [Debug] Start identity token validation
+2017-10-26 22:47:11.653 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:47:11.654 -04:00 [Debug] Client found: "mvc.hybrid" / null
+2017-10-26 22:47:11.656 -04:00 [Debug] Calling into custom token validator: "IdentityServer4.Validation.DefaultCustomTokenValidator"
+2017-10-26 22:47:11.722 -04:00 [Debug] Token validation success
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"ValidateLifetime\": false,
+  \"Claims\": {
+    \"nbf\": 1509072419,
+    \"exp\": 1509072719,
+    \"iss\": \"http://localhost:5000\",
+    \"aud\": \"mvc.hybrid\",
+    \"nonce\": \"636446691556030832.ZGY3ZTM0NGQtNTc3Mi00YjdiLWFkZTctM2U5ZDcwYTk0MjhjN2QyMDAxMWItN2M4Ny00Yjc5LWJjOGYtMGYwZjFmMDZhNWJj\",
+    \"iat\": 1509072419,
+    \"at_hash\": \"fq7BaCXYq9NypgJcvnH-Lw\",
+    \"sid\": \"dec3592501c8e30de8137be3641999e4\",
+    \"sub\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+    \"auth_time\": 1509072363,
+    \"idp\": \"local\",
+    \"amr\": \"pwd\"
+  }
+}"
+2017-10-26 22:47:11.723 -04:00 [Information] End session request validation success
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"PostLogOutUri\": \"http://localhost:5002/signout-callback-oidc\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxYYMjAVT2FjQghLqFWdoSfyh3asZoAl6M2UEMuf8i5cuB0XMCC0A06c9_OiIOEnfJKK6_PdeFGdg2Y3pZx0CQUI3XKIRzv2273hzbZlDeHNWtTepQAMD4raokXIyES7gvtk2xLeY2iyrBGZajafZ5wx\",
+  \"Raw\": {
+    \"post_logout_redirect_uri\": \"http://localhost:5002/signout-callback-oidc\",
+    \"id_token_hint\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6IjA0YmM1NGJkM2Q1YzkzMWRhMjM1MTY4YzM4MmFlM2Q3IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1MDkwNzI0MTksImV4cCI6MTUwOTA3MjcxOSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoibXZjLmh5YnJpZCIsIm5vbmNlIjoiNjM2NDQ2NjkxNTU2MDMwODMyLlpHWTNaVE0wTkdRdE5UYzNNaTAwWWpkaUxXRmtaVGN0TTJVNVpEY3dZVGswTWpoak4yUXlNREF4TVdJdE4yTTROeTAwWWpjNUxXSmpPR1l0TUdZd1pqRm1NRFpoTldKaiIsImlhdCI6MTUwOTA3MjQxOSwiYXRfaGFzaCI6ImZxN0JhQ1hZcTlOeXBnSmN2bkgtTHciLCJzaWQiOiJkZWMzNTkyNTAxYzhlMzBkZTgxMzdiZTM2NDE5OTllNCIsInN1YiI6ImJjOGEzNDUzLTY2YTYtNDhlOS04NGU2LWIwOGJkMjM5MjFlNiIsImF1dGhfdGltZSI6MTUwOTA3MjM2MywiaWRwIjoibG9jYWwiLCJhbXIiOlsicHdkIl19.p7N1I9UQmQXMozo4Ez8PBC77Wej1OjRh2y1qVM2ohhRopoRvCpzlbq175wQeQv9OtjtLoUoeBViLRERO5z-5_huWxoKQmfIdoUjT7O-1y0J1c_MjrjoKMKcHzz1jCDRRryqwhNP5K-tbKif7t6oRVFV96S4n3N3gNjbmuP0LfeYriJv8vWpO5Fa--yWUkTkW_ZLrFNmLawBzDQYE1HSnC1GXsRBSWXHTpJa6-oeR6V2xofh5TLayhWqFfQHBb3ImyqjFjSzoKxIG-65oCVSIlWT-PE4LP1K1W4fGJrlp97uain4t3ZYnb3JHjEcv4HvxmPF6sig5QbJT59NSTeWPWA\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxYYMjAVT2FjQghLqFWdoSfyh3asZoAl6M2UEMuf8i5cuB0XMCC0A06c9_OiIOEnfJKK6_PdeFGdg2Y3pZx0CQUI3XKIRzv2273hzbZlDeHNWtTepQAMD4raokXIyES7gvtk2xLeY2iyrBGZajafZ5wx\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:47:11.730 -04:00 [Debug] Success validating end session request from "mvc.hybrid"
+2017-10-26 22:47:11.759 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:47:11.761 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:47:11.786 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:47:11.788 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:47:11.790 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:47:11.792 -04:00 [Information] User logged out.
+2017-10-26 22:49:28.026 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-26 22:49:28.058 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-26 22:49:28.058 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-26 22:49:28.059 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-26 22:49:28.060 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-26 22:49:28.241 -04:00 [Debug] Starting token cleanup
+2017-10-26 22:49:32.490 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:49:32.506 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:49:32.513 -04:00 [Debug] Request path "/connect/authorize" matched to endpoint type "Authorize"
+2017-10-26 22:49:32.520 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-26 22:49:32.523 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-26 22:49:32.551 -04:00 [Debug] Start authorize request
+2017-10-26 22:49:32.563 -04:00 [Debug] User in authorize request: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:49:32.574 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:49:33.509 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:49:33.516 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:49:33.517 -04:00 [Debug] No PKCE used.
+2017-10-26 22:49:33.656 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:49:33.989 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:49:34.097 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:49:34.208 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:49:34.217 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:49:34.233 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile phone email api1 offline_access\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxZJR-Zgx3MazVBVsqH7FtKAYeAEEO5_oPW6-aWNThlFHS3NWVMHD9ltetbDC6hER_n8D92aN9idIR9ou-KK1nvVSTeU-tIgaG_Q9FpcMDOiO7xKfXnO5ca8RHFqCjHZeV02QdJVw_fNa7s4rJqbWbuIU04w1z1gZQBnMKlbJcxDy8bOE1P4x-C-XMLCbzpviLMxHxwh50ba1-o3q80_0V_A3R7h-senhwzMtJHmg75Q9IK2Huz3DDl10oPtTYA_Oj4DTy2OV7ivQvf-ffkjbC1w\",
+  \"Nonce\": \"636446693723292988.ZjFmNzgxYTAtMTVhZC00YTQ3LWI1ODEtZjQ0Y2JkZGRjZTA2NjNiMzgwNzItZWJlMi00NjJiLWE5MDktOGE0MjQzNzYwZDMy\",
+  \"SessionId\": \"dec3592501c8e30de8137be3641999e4\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile phone email api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636446693723292988.ZjFmNzgxYTAtMTVhZC00YTQ3LWI1ODEtZjQ0Y2JkZGRjZTA2NjNiMzgwNzItZWJlMi00NjJiLWE5MDktOGE0MjQzNzYwZDMy\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxZJR-Zgx3MazVBVsqH7FtKAYeAEEO5_oPW6-aWNThlFHS3NWVMHD9ltetbDC6hER_n8D92aN9idIR9ou-KK1nvVSTeU-tIgaG_Q9FpcMDOiO7xKfXnO5ca8RHFqCjHZeV02QdJVw_fNa7s4rJqbWbuIU04w1z1gZQBnMKlbJcxDy8bOE1P4x-C-XMLCbzpviLMxHxwh50ba1-o3q80_0V_A3R7h-senhwzMtJHmg75Q9IK2Huz3DDl10oPtTYA_Oj4DTy2OV7ivQvf-ffkjbC1w\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:49:34.358 -04:00 [Debug] Scopes contains offline_access, consent is required
+2017-10-26 22:49:34.358 -04:00 [Information] Showing consent: User has not yet consented
+2017-10-26 22:49:34.386 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:49:34.394 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:49:34.712 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:49:35.427 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:49:35.427 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:49:35.428 -04:00 [Debug] No PKCE used.
+2017-10-26 22:49:35.536 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:49:35.852 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:49:35.976 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:49:36.300 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:49:36.302 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:49:37.126 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:49:37.244 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:49:37.612 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:49:41.726 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:49:41.732 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:49:42.064 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:49:42.067 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:49:58.039 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:49:58.042 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:49:58.105 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:49:58.420 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:49:58.420 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:49:58.421 -04:00 [Debug] No PKCE used.
+2017-10-26 22:49:58.494 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:49:58.640 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:49:58.702 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:49:58.867 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:49:58.868 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:49:58.915 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:49:58.917 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:49:58.920 -04:00 [Debug] Request path "/connect/authorize/callback" matched to endpoint type "Authorize"
+2017-10-26 22:49:58.922 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint"
+2017-10-26 22:49:58.922 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint" for "/connect/authorize/callback"
+2017-10-26 22:49:58.931 -04:00 [Debug] Start authorize callback request
+2017-10-26 22:49:58.938 -04:00 [Debug] User in authorize request: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:49:58.939 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:49:59.147 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:49:59.148 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:49:59.148 -04:00 [Debug] No PKCE used.
+2017-10-26 22:49:59.186 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:49:59.311 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:49:59.356 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:49:59.450 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:49:59.450 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:49:59.451 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile phone email api1 offline_access\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxZJR-Zgx3MazVBVsqH7FtKAYeAEEO5_oPW6-aWNThlFHS3NWVMHD9ltetbDC6hER_n8D92aN9idIR9ou-KK1nvVSTeU-tIgaG_Q9FpcMDOiO7xKfXnO5ca8RHFqCjHZeV02QdJVw_fNa7s4rJqbWbuIU04w1z1gZQBnMKlbJcxDy8bOE1P4x-C-XMLCbzpviLMxHxwh50ba1-o3q80_0V_A3R7h-senhwzMtJHmg75Q9IK2Huz3DDl10oPtTYA_Oj4DTy2OV7ivQvf-ffkjbC1w\",
+  \"Nonce\": \"636446693723292988.ZjFmNzgxYTAtMTVhZC00YTQ3LWI1ODEtZjQ0Y2JkZGRjZTA2NjNiMzgwNzItZWJlMi00NjJiLWE5MDktOGE0MjQzNzYwZDMy\",
+  \"SessionId\": \"dec3592501c8e30de8137be3641999e4\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile phone email api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636446693723292988.ZjFmNzgxYTAtMTVhZC00YTQ3LWI1ODEtZjQ0Y2JkZGRjZTA2NjNiMzgwNzItZWJlMi00NjJiLWE5MDktOGE0MjQzNzYwZDMy\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxZJR-Zgx3MazVBVsqH7FtKAYeAEEO5_oPW6-aWNThlFHS3NWVMHD9ltetbDC6hER_n8D92aN9idIR9ou-KK1nvVSTeU-tIgaG_Q9FpcMDOiO7xKfXnO5ca8RHFqCjHZeV02QdJVw_fNa7s4rJqbWbuIU04w1z1gZQBnMKlbJcxDy8bOE1P4x-C-XMLCbzpviLMxHxwh50ba1-o3q80_0V_A3R7h-senhwzMtJHmg75Q9IK2Huz3DDl10oPtTYA_Oj4DTy2OV7ivQvf-ffkjbC1w\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:49:59.499 -04:00 [Debug] Scopes contains offline_access, consent is required
+2017-10-26 22:49:59.505 -04:00 [Information] User consented to scopes: ["openid", "profile", "phone", "email", "api1", "offline_access"]
+2017-10-26 22:49:59.510 -04:00 [Debug] Client allows remembering consent, and no scopes provided. Removing consent from consent store for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:49:59.578 -04:00 [Debug] no "VTOFnaJ2E/1AVtJcerS5MBjhQlVhNYEeXwOdFJBlH54=" persisted grant found in database
+2017-10-26 22:49:59.585 -04:00 [Debug] Creating Hybrid Flow response.
+2017-10-26 22:49:59.659 -04:00 [Debug] "sQjxCHjXfvpu8L+qp1Ct2j+P2zdPDW72ZHXifspHZoQ=" not found in database
+2017-10-26 22:49:59.761 -04:00 [Debug] Creating Implicit Flow response.
+2017-10-26 22:49:59.774 -04:00 [Debug] Getting claims for identity token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6" and client: "mvc.hybrid"
+2017-10-26 22:49:59.777 -04:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-26 22:49:59.850 -04:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxZJR-Zgx3MazVBVsqH7FtKAYeAEEO5_oPW6-aWNThlFHS3NWVMHD9ltetbDC6hER_n8D92aN9idIR9ou-KK1nvVSTeU-tIgaG_Q9FpcMDOiO7xKfXnO5ca8RHFqCjHZeV02QdJVw_fNa7s4rJqbWbuIU04w1z1gZQBnMKlbJcxDy8bOE1P4x-C-XMLCbzpviLMxHxwh50ba1-o3q80_0V_A3R7h-senhwzMtJHmg75Q9IK2Huz3DDl10oPtTYA_Oj4DTy2OV7ivQvf-ffkjbC1w\",
+  \"Scope\": \"openid profile phone email api1 offline_access\"
+}"
+2017-10-26 22:50:00.005 -04:00 [Debug] Request path "/connect/token" matched to endpoint type "Token"
+2017-10-26 22:50:00.015 -04:00 [Debug] Endpoint enabled: "Token", successfully created handler: "IdentityServer4.Endpoints.TokenEndpoint"
+2017-10-26 22:50:00.015 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.TokenEndpoint" for "/connect/token"
+2017-10-26 22:50:00.025 -04:00 [Debug] Start token request.
+2017-10-26 22:50:00.032 -04:00 [Debug] Start client validation
+2017-10-26 22:50:00.039 -04:00 [Debug] Start parsing Basic Authentication secret
+2017-10-26 22:50:00.043 -04:00 [Debug] Start parsing for secret in post body
+2017-10-26 22:50:00.044 -04:00 [Debug] Parser found secret: "PostBodySecretParser"
+2017-10-26 22:50:00.045 -04:00 [Debug] Secret id found: "mvc.hybrid"
+2017-10-26 22:50:00.273 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:50:00.286 -04:00 [Debug] Secret validator success: "HashedSharedSecretValidator"
+2017-10-26 22:50:00.287 -04:00 [Debug] Client validation success
+2017-10-26 22:50:00.294 -04:00 [Debug] Start token request validation
+2017-10-26 22:50:00.304 -04:00 [Debug] Start validation of authorization code token request
+2017-10-26 22:50:00.342 -04:00 [Debug] "sQjxCHjXfvpu8L+qp1Ct2j+P2zdPDW72ZHXifspHZoQ=" found in database: True
+2017-10-26 22:50:00.376 -04:00 [Debug] removing "sQjxCHjXfvpu8L+qp1Ct2j+P2zdPDW72ZHXifspHZoQ=" persisted grant from database
+2017-10-26 22:50:00.425 -04:00 [Debug] Validation of authorization code token request success
+2017-10-26 22:50:00.431 -04:00 [Information] Token request validation success
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"GrantType\": \"authorization_code\",
+  \"AuthorizationCode\": \"41c3eeabb06bb0242835a3b39b0c050f8372d7fe3010b0ed4dc764444faae1be\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"client_secret\": \"***REDACTED***\",
+    \"code\": \"41c3eeabb06bb0242835a3b39b0c050f8372d7fe3010b0ed4dc764444faae1be\",
+    \"grant_type\": \"authorization_code\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\"
+  }
+}"
+2017-10-26 22:50:00.626 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:50:00.660 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:50:00.764 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:50:00.775 -04:00 [Debug] Getting claims for access token for client: "mvc.hybrid"
+2017-10-26 22:50:00.777 -04:00 [Debug] Getting claims for access token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:50:00.914 -04:00 [Debug] Creating refresh token
+2017-10-26 22:50:00.915 -04:00 [Debug] Setting an absolute lifetime: 2592000
+2017-10-26 22:50:00.948 -04:00 [Debug] "w2JCMeRrW8pSqX9gezgZLK624sG4MGBSOnv/3TU32yU=" not found in database
+2017-10-26 22:50:01.209 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:50:01.272 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:50:01.381 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:50:01.383 -04:00 [Debug] Getting claims for identity token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6" and client: "mvc.hybrid"
+2017-10-26 22:50:01.384 -04:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-26 22:50:01.391 -04:00 [Debug] Token request success.
+2017-10-26 22:50:01.409 -04:00 [Debug] Request path "/connect/userinfo" matched to endpoint type "Userinfo"
+2017-10-26 22:50:01.412 -04:00 [Debug] Endpoint enabled: "Userinfo", successfully created handler: "IdentityServer4.Endpoints.UserInfoEndpoint"
+2017-10-26 22:50:01.413 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.UserInfoEndpoint" for "/connect/userinfo"
+2017-10-26 22:50:01.425 -04:00 [Debug] Start userinfo request
+2017-10-26 22:50:01.429 -04:00 [Debug] Bearer token found in header
+2017-10-26 22:50:01.941 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:50:02.183 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:50:02.188 -04:00 [Debug] Token validation success
+"{
+  \"ValidateLifetime\": true,
+  \"AccessTokenType\": \"Jwt\",
+  \"ExpectedScope\": \"openid\",
+  \"Claims\": {
+    \"nbf\": 1509072600,
+    \"exp\": 1509076200,
+    \"iss\": \"http://localhost:5000\",
+    \"aud\": [
+      \"http://localhost:5000/resources\",
+      \"api1\"
+    ],
+    \"client_id\": \"mvc.hybrid\",
+    \"sub\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+    \"auth_time\": 1509072363,
+    \"idp\": \"local\",
+    \"scope\": [
+      \"openid\",
+      \"profile\",
+      \"phone\",
+      \"email\",
+      \"api1\",
+      \"offline_access\"
+    ],
+    \"amr\": \"pwd\"
+  }
+}"
+2017-10-26 22:50:02.193 -04:00 [Debug] Creating userinfo response
+2017-10-26 22:50:02.196 -04:00 [Debug] Scopes in access token: "openid profile phone email api1 offline_access"
+2017-10-26 22:50:02.234 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:50:02.235 -04:00 [Debug] Requested claim types: "sub updated_at locale zoneinfo birthdate gender website profile preferred_username nickname middle_name given_name family_name name picture phone_number_verified phone_number email email_verified"
+2017-10-26 22:50:02.358 -04:00 [Information] Profile service returned to the following claim types: "sub preferred_username name email email_verified"
+2017-10-26 22:50:02.361 -04:00 [Debug] End userinfo request
+2017-10-26 22:50:08.295 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:50:08.297 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:50:08.299 -04:00 [Debug] Request path "/connect/endsession" matched to endpoint type "Endsession"
+2017-10-26 22:50:08.301 -04:00 [Debug] Endpoint enabled: "Endsession", successfully created handler: "IdentityServer4.Endpoints.EndSessionEndpoint"
+2017-10-26 22:50:08.301 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.EndSessionEndpoint" for "/connect/endsession"
+2017-10-26 22:50:08.308 -04:00 [Debug] Processing signout request for "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:50:08.313 -04:00 [Debug] Start end session request validation
+2017-10-26 22:50:08.317 -04:00 [Debug] Start identity token validation
+2017-10-26 22:50:08.504 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:50:08.505 -04:00 [Debug] Client found: "mvc.hybrid" / null
+2017-10-26 22:50:08.507 -04:00 [Debug] Calling into custom token validator: "IdentityServer4.Validation.DefaultCustomTokenValidator"
+2017-10-26 22:50:08.536 -04:00 [Debug] Token validation success
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"ValidateLifetime\": false,
+  \"Claims\": {
+    \"nbf\": 1509072601,
+    \"exp\": 1509072901,
+    \"iss\": \"http://localhost:5000\",
+    \"aud\": \"mvc.hybrid\",
+    \"nonce\": \"636446693723292988.ZjFmNzgxYTAtMTVhZC00YTQ3LWI1ODEtZjQ0Y2JkZGRjZTA2NjNiMzgwNzItZWJlMi00NjJiLWE5MDktOGE0MjQzNzYwZDMy\",
+    \"iat\": 1509072601,
+    \"at_hash\": \"ouNe9bMnFGeFHiiDwraUAg\",
+    \"sid\": \"dec3592501c8e30de8137be3641999e4\",
+    \"sub\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+    \"auth_time\": 1509072363,
+    \"idp\": \"local\",
+    \"amr\": \"pwd\"
+  }
+}"
+2017-10-26 22:50:08.542 -04:00 [Information] End session request validation success
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"PostLogOutUri\": \"http://localhost:5002/signout-callback-oidc\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaHg1LvmTNHIGVUB_l7S3TNUWkfVn5qmgWsXKXNipvM1VoKVEg9zKgsWr04x6j9Qen2DMGXHNcc45Xe4vGl8DSBzQRMqwpDngZpEJnXLsU2HrleAlF59ATceoK2R-_ThZuXy5ctKoQ1ZMw3Ew84MFVf\",
+  \"Raw\": {
+    \"post_logout_redirect_uri\": \"http://localhost:5002/signout-callback-oidc\",
+    \"id_token_hint\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6IjA0YmM1NGJkM2Q1YzkzMWRhMjM1MTY4YzM4MmFlM2Q3IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1MDkwNzI2MDEsImV4cCI6MTUwOTA3MjkwMSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoibXZjLmh5YnJpZCIsIm5vbmNlIjoiNjM2NDQ2NjkzNzIzMjkyOTg4LlpqRm1Oemd4WVRBdE1UVmhaQzAwWVRRM0xXSTFPREV0WmpRMFkySmtaR1JqWlRBMk5qTmlNemd3TnpJdFpXSmxNaTAwTmpKaUxXRTVNRGt0T0dFME1qUXpOell3WkRNeSIsImlhdCI6MTUwOTA3MjYwMSwiYXRfaGFzaCI6Im91TmU5Yk1uRkdlRkhpaUR3cmFVQWciLCJzaWQiOiJkZWMzNTkyNTAxYzhlMzBkZTgxMzdiZTM2NDE5OTllNCIsInN1YiI6ImJjOGEzNDUzLTY2YTYtNDhlOS04NGU2LWIwOGJkMjM5MjFlNiIsImF1dGhfdGltZSI6MTUwOTA3MjM2MywiaWRwIjoibG9jYWwiLCJhbXIiOlsicHdkIl19.jpoTplh9U4msJu2BbrXVY-RUvKrpR19cggslJnuJup57PbmeTTD_6CKQPd6Ql7o6w-94Zg3PBUnNj64UJ7fMbM-bSymH3e3xka3fibIp0coW8xo8dpAB5Hki82WHDxc2jUvghIeC2RtQJ52RBGpN4o7l0e46Uc7mEHEJiMUuj8M0qtkxjDCz_QQeMjlVWrw1c6yP0IxG7tOjJpyHl-ph8gvX6CKyOzQ9Gp-1zEaJaa8uFJMs9VS1cMhjvUJwplfaAG0fUHIQ_7EcQmDraPkfxWJ2ftOn1Ndj3XPBvRPpkkn9sDYkDn7jCmVt-b7q_jf-10sJAAnQAKmu8i-odB7YbQ\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaHg1LvmTNHIGVUB_l7S3TNUWkfVn5qmgWsXKXNipvM1VoKVEg9zKgsWr04x6j9Qen2DMGXHNcc45Xe4vGl8DSBzQRMqwpDngZpEJnXLsU2HrleAlF59ATceoK2R-_ThZuXy5ctKoQ1ZMw3Ew84MFVf\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:50:08.545 -04:00 [Debug] Success validating end session request from "mvc.hybrid"
+2017-10-26 22:50:08.568 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:50:08.571 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:50:08.649 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:50:08.651 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:50:08.653 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:50:08.655 -04:00 [Information] User logged out.
+2017-10-26 22:50:11.203 -04:00 [Debug] Request path "/connect/endsession/callback" matched to endpoint type "Endsession"
+2017-10-26 22:50:11.206 -04:00 [Debug] Endpoint enabled: "Endsession", successfully created handler: "IdentityServer4.Endpoints.EndSessionCallbackEndpoint"
+2017-10-26 22:50:11.206 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.EndSessionCallbackEndpoint" for "/connect/endsession/callback"
+2017-10-26 22:50:11.214 -04:00 [Debug] Processing signout callback request
+2017-10-26 22:50:11.470 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:50:11.471 -04:00 [Debug] No client front-channel logout URLs
+2017-10-26 22:50:11.471 -04:00 [Debug] No client back-channel logout URLs
+2017-10-26 22:50:11.471 -04:00 [Information] Successful signout callback.
+2017-10-26 22:50:11.473 -04:00 [Debug] No client front-channel iframe urls
+2017-10-26 22:50:11.473 -04:00 [Debug] No client back-channel iframe urls
+2017-10-26 22:53:07.664 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-26 22:53:07.692 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-26 22:53:07.693 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-26 22:53:07.693 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-26 22:53:07.694 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-26 22:53:07.809 -04:00 [Debug] Starting token cleanup
+2017-10-26 22:53:17.175 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:53:19.381 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:53:19.391 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:53:19.392 -04:00 [Information] User logged in.
+2017-10-26 22:53:19.401 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:19.402 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:19.426 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:19.428 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:19.509 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:19.510 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:20.618 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:20.618 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:20.639 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:53:20.639 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:53:20.641 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:53:20.641 -04:00 [Information] User logged out.
+2017-10-26 22:53:44.010 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-26 22:53:44.044 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-26 22:53:44.045 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-26 22:53:44.045 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-26 22:53:44.046 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-26 22:53:44.142 -04:00 [Debug] Starting token cleanup
+2017-10-26 22:53:54.613 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:53:56.764 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:53:56.774 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:53:56.774 -04:00 [Information] User logged in.
+2017-10-26 22:53:56.784 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:56.785 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:56.809 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:56.810 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:56.932 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:56.933 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:57.799 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:57.800 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:53:57.826 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:53:57.827 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:53:57.828 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:53:57.829 -04:00 [Information] User logged out.
+2017-10-26 22:54:43.896 -04:00 [Debug] Using "Identity.Application" as default scheme for authentication
+2017-10-26 22:54:43.927 -04:00 [Debug] Using "Identity.External" as default scheme for sign-in
+2017-10-26 22:54:43.928 -04:00 [Debug] Using "Identity.External" as default scheme for sign-out
+2017-10-26 22:54:43.929 -04:00 [Debug] Using "Identity.Application" as default scheme for challenge
+2017-10-26 22:54:43.930 -04:00 [Debug] Using "Identity.Application" as default scheme for forbid
+2017-10-26 22:54:44.044 -04:00 [Debug] Starting token cleanup
+2017-10-26 22:54:46.838 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:54:50.312 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:54:51.960 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:54:51.970 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:54:51.971 -04:00 [Information] User logged in.
+2017-10-26 22:54:51.980 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:51.980 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:52.123 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:52.178 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:52.236 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:52.236 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:53.019 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:53.020 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:53.044 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:54:53.046 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:54:53.046 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:54:53.047 -04:00 [Information] User logged out.
+2017-10-26 22:54:56.757 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:54:57.828 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:54:57.829 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:54:57.830 -04:00 [Information] User logged in.
+2017-10-26 22:54:57.835 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:57.836 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:57.859 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:57.860 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:57.951 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:57.952 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:58.753 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:58.754 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:59.407 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:59.433 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:59.532 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:54:59.533 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:00.761 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:00.762 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:00.764 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:55:00.765 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:55:00.766 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:55:00.766 -04:00 [Information] User logged out.
+2017-10-26 22:55:11.149 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:55:12.623 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:55:12.624 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:55:12.625 -04:00 [Information] User logged in.
+2017-10-26 22:55:12.630 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:12.631 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:12.656 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:12.657 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:12.751 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:12.752 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:15.508 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:15.509 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:15.533 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:15.534 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:15.624 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:15.624 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:20.967 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:20.968 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:21.019 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:21.020 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:21.107 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:21.108 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:21.801 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:21.802 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:21.825 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:21.827 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:21.916 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:21.917 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:22.370 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:22.372 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:22.392 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:22.394 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:22.506 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:22.507 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:28.730 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:28.731 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:28.756 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:28.767 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:28.860 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:28.861 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:29.425 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:29.426 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:29.571 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:29.573 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:29.663 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:29.664 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:30.151 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:30.152 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:30.238 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:30.258 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:30.261 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:30.378 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:30.379 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:30.822 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:30.823 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:30.848 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:30.849 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:30.921 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:30.922 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:31.602 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:31.603 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:31.605 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:31.637 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:31.638 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:31.727 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:31.728 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:32.798 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:32.799 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:32.825 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:32.826 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:32.895 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:32.896 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:34.265 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:34.266 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:34.309 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:34.316 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:34.412 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:34.413 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:36.819 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:36.822 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:55:36.824 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:55:36.828 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:55:36.832 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:55:36.837 -04:00 [Information] User logged out.
+2017-10-26 22:55:38.287 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:56:05.543 -04:00 [Information] AuthenticationScheme: "Facebook" was challenged.
+2017-10-26 22:56:12.019 -04:00 [Debug] Request path "/connect/authorize" matched to endpoint type "Authorize"
+2017-10-26 22:56:12.025 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-26 22:56:12.026 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-26 22:56:12.030 -04:00 [Debug] Start authorize request
+2017-10-26 22:56:12.035 -04:00 [Debug] No user present in authorize request
+2017-10-26 22:56:12.040 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:56:12.621 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:12.628 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:56:12.630 -04:00 [Debug] No PKCE used.
+2017-10-26 22:56:12.740 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:13.015 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:13.027 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:13.031 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:13.040 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:56:13.053 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile phone email api1 offline_access\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaY1dIT_NG0zx88689vOtTcWu3t5v6-ZEJ1NRJ9aohyu1kyxX-p7mcipj4l_77Wo8hk4_vQGGqUJngbgjMd1NX8tlLq6BrT-v2IdfFIUZ3tbPDNda6HDH5dB0LJEmpTVQIwy80WLBVVPzRNIl0Q7Lt5VBWMQpbFN9uG3D4w3XuFwKbC2Z8O0Zc3zsh8jV_YpyBbXMWA6uZPkxHfSEfYqgEuCf1U1YAxJQGy296ZVLu2AtNA9yztAqWXfHs_ZWacfZ6vUFSuqN4QqUkQUDKk9B3y\",
+  \"Nonce\": \"636446697720100064.Mzc4YTQ4NDgtOGZlMy00YTFiLTliY2QtZDlkYjI2Y2MxNGI5YmYwN2VjZjYtYTRjZS00ODQxLTllMDItZDMwMjFlODhjZDky\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile phone email api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636446697720100064.Mzc4YTQ4NDgtOGZlMy00YTFiLTliY2QtZDlkYjI2Y2MxNGI5YmYwN2VjZjYtYTRjZS00ODQxLTllMDItZDMwMjFlODhjZDky\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaY1dIT_NG0zx88689vOtTcWu3t5v6-ZEJ1NRJ9aohyu1kyxX-p7mcipj4l_77Wo8hk4_vQGGqUJngbgjMd1NX8tlLq6BrT-v2IdfFIUZ3tbPDNda6HDH5dB0LJEmpTVQIwy80WLBVVPzRNIl0Q7Lt5VBWMQpbFN9uG3D4w3XuFwKbC2Z8O0Zc3zsh8jV_YpyBbXMWA6uZPkxHfSEfYqgEuCf1U1YAxJQGy296ZVLu2AtNA9yztAqWXfHs_ZWacfZ6vUFSuqN4QqUkQUDKk9B3y\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:56:13.061 -04:00 [Information] Showing login: User is not authenticated
+2017-10-26 22:56:13.071 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:56:15.251 -04:00 [Information] AuthenticationScheme: "Twitter" was challenged.
+2017-10-26 22:56:16.896 -04:00 [Information] AuthenticationScheme: "Identity.External" signed in.
+2017-10-26 22:56:16.926 -04:00 [Information] AuthenticationScheme: "Identity.External" was successfully authenticated.
+2017-10-26 22:56:16.975 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:56:16.978 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:56:16.978 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:56:16.979 -04:00 [Information] User logged in with "Twitter" provider.
+2017-10-26 22:56:16.985 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:16.986 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:16.986 -04:00 [Debug] Request path "/connect/authorize/callback" matched to endpoint type "Authorize"
+2017-10-26 22:56:16.987 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint"
+2017-10-26 22:56:16.988 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint" for "/connect/authorize/callback"
+2017-10-26 22:56:16.994 -04:00 [Debug] Start authorize callback request
+2017-10-26 22:56:16.999 -04:00 [Debug] User in authorize request: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:56:17.000 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:56:17.005 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:17.006 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:56:17.006 -04:00 [Debug] No PKCE used.
+2017-10-26 22:56:17.008 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:17.012 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:17.014 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:17.017 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:17.018 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:56:17.018 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile phone email api1 offline_access\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaY1dIT_NG0zx88689vOtTcWu3t5v6-ZEJ1NRJ9aohyu1kyxX-p7mcipj4l_77Wo8hk4_vQGGqUJngbgjMd1NX8tlLq6BrT-v2IdfFIUZ3tbPDNda6HDH5dB0LJEmpTVQIwy80WLBVVPzRNIl0Q7Lt5VBWMQpbFN9uG3D4w3XuFwKbC2Z8O0Zc3zsh8jV_YpyBbXMWA6uZPkxHfSEfYqgEuCf1U1YAxJQGy296ZVLu2AtNA9yztAqWXfHs_ZWacfZ6vUFSuqN4QqUkQUDKk9B3y\",
+  \"Nonce\": \"636446697720100064.Mzc4YTQ4NDgtOGZlMy00YTFiLTliY2QtZDlkYjI2Y2MxNGI5YmYwN2VjZjYtYTRjZS00ODQxLTllMDItZDMwMjFlODhjZDky\",
+  \"SessionId\": \"86b1df0957e576eca321057485abf33c\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile phone email api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636446697720100064.Mzc4YTQ4NDgtOGZlMy00YTFiLTliY2QtZDlkYjI2Y2MxNGI5YmYwN2VjZjYtYTRjZS00ODQxLTllMDItZDMwMjFlODhjZDky\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaY1dIT_NG0zx88689vOtTcWu3t5v6-ZEJ1NRJ9aohyu1kyxX-p7mcipj4l_77Wo8hk4_vQGGqUJngbgjMd1NX8tlLq6BrT-v2IdfFIUZ3tbPDNda6HDH5dB0LJEmpTVQIwy80WLBVVPzRNIl0Q7Lt5VBWMQpbFN9uG3D4w3XuFwKbC2Z8O0Zc3zsh8jV_YpyBbXMWA6uZPkxHfSEfYqgEuCf1U1YAxJQGy296ZVLu2AtNA9yztAqWXfHs_ZWacfZ6vUFSuqN4QqUkQUDKk9B3y\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:56:17.033 -04:00 [Debug] Scopes contains offline_access, consent is required
+2017-10-26 22:56:17.033 -04:00 [Information] Showing consent: User has not yet consented
+2017-10-26 22:56:17.041 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:17.042 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:17.059 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:56:17.064 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:17.064 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:56:17.064 -04:00 [Debug] No PKCE used.
+2017-10-26 22:56:17.066 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:17.069 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:17.070 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:17.075 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:17.076 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:56:17.081 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:17.086 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:17.151 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:17.555 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:17.556 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:17.706 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:17.707 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:22.742 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:22.744 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:22.759 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:56:22.765 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:22.765 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:56:22.765 -04:00 [Debug] No PKCE used.
+2017-10-26 22:56:22.768 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:22.771 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:22.772 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:22.776 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:22.776 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:56:22.799 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:22.799 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:22.799 -04:00 [Debug] Request path "/connect/authorize/callback" matched to endpoint type "Authorize"
+2017-10-26 22:56:22.800 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint"
+2017-10-26 22:56:22.800 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint" for "/connect/authorize/callback"
+2017-10-26 22:56:22.801 -04:00 [Debug] Start authorize callback request
+2017-10-26 22:56:22.805 -04:00 [Debug] User in authorize request: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:56:22.805 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:56:22.812 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:22.813 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:56:22.813 -04:00 [Debug] No PKCE used.
+2017-10-26 22:56:22.815 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:22.818 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:22.820 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:22.824 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:22.824 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:56:22.824 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile phone email api1 offline_access\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaY1dIT_NG0zx88689vOtTcWu3t5v6-ZEJ1NRJ9aohyu1kyxX-p7mcipj4l_77Wo8hk4_vQGGqUJngbgjMd1NX8tlLq6BrT-v2IdfFIUZ3tbPDNda6HDH5dB0LJEmpTVQIwy80WLBVVPzRNIl0Q7Lt5VBWMQpbFN9uG3D4w3XuFwKbC2Z8O0Zc3zsh8jV_YpyBbXMWA6uZPkxHfSEfYqgEuCf1U1YAxJQGy296ZVLu2AtNA9yztAqWXfHs_ZWacfZ6vUFSuqN4QqUkQUDKk9B3y\",
+  \"Nonce\": \"636446697720100064.Mzc4YTQ4NDgtOGZlMy00YTFiLTliY2QtZDlkYjI2Y2MxNGI5YmYwN2VjZjYtYTRjZS00ODQxLTllMDItZDMwMjFlODhjZDky\",
+  \"SessionId\": \"86b1df0957e576eca321057485abf33c\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile phone email api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636446697720100064.Mzc4YTQ4NDgtOGZlMy00YTFiLTliY2QtZDlkYjI2Y2MxNGI5YmYwN2VjZjYtYTRjZS00ODQxLTllMDItZDMwMjFlODhjZDky\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaY1dIT_NG0zx88689vOtTcWu3t5v6-ZEJ1NRJ9aohyu1kyxX-p7mcipj4l_77Wo8hk4_vQGGqUJngbgjMd1NX8tlLq6BrT-v2IdfFIUZ3tbPDNda6HDH5dB0LJEmpTVQIwy80WLBVVPzRNIl0Q7Lt5VBWMQpbFN9uG3D4w3XuFwKbC2Z8O0Zc3zsh8jV_YpyBbXMWA6uZPkxHfSEfYqgEuCf1U1YAxJQGy296ZVLu2AtNA9yztAqWXfHs_ZWacfZ6vUFSuqN4QqUkQUDKk9B3y\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:56:22.827 -04:00 [Debug] Scopes contains offline_access, consent is required
+2017-10-26 22:56:22.838 -04:00 [Information] User consented to scopes: ["openid", "profile", "phone", "email", "api1", "offline_access"]
+2017-10-26 22:56:22.843 -04:00 [Debug] Client allows remembering consent, and no scopes provided. Removing consent from consent store for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:56:22.861 -04:00 [Debug] no "VTOFnaJ2E/1AVtJcerS5MBjhQlVhNYEeXwOdFJBlH54=" persisted grant found in database
+2017-10-26 22:56:22.868 -04:00 [Debug] Creating Hybrid Flow response.
+2017-10-26 22:56:22.900 -04:00 [Debug] "xPXZTtxyAmh9klX1NJV72PJh7oC19PQ+npWwK6caD0A=" not found in database
+2017-10-26 22:56:22.970 -04:00 [Debug] Creating Implicit Flow response.
+2017-10-26 22:56:22.980 -04:00 [Debug] Getting claims for identity token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6" and client: "mvc.hybrid"
+2017-10-26 22:56:22.981 -04:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-26 22:56:23.030 -04:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxaY1dIT_NG0zx88689vOtTcWu3t5v6-ZEJ1NRJ9aohyu1kyxX-p7mcipj4l_77Wo8hk4_vQGGqUJngbgjMd1NX8tlLq6BrT-v2IdfFIUZ3tbPDNda6HDH5dB0LJEmpTVQIwy80WLBVVPzRNIl0Q7Lt5VBWMQpbFN9uG3D4w3XuFwKbC2Z8O0Zc3zsh8jV_YpyBbXMWA6uZPkxHfSEfYqgEuCf1U1YAxJQGy296ZVLu2AtNA9yztAqWXfHs_ZWacfZ6vUFSuqN4QqUkQUDKk9B3y\",
+  \"Scope\": \"openid profile phone email api1 offline_access\"
+}"
+2017-10-26 22:56:23.043 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:56:23.044 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:56:23.118 -04:00 [Debug] Request path "/connect/token" matched to endpoint type "Token"
+2017-10-26 22:56:23.125 -04:00 [Debug] Endpoint enabled: "Token", successfully created handler: "IdentityServer4.Endpoints.TokenEndpoint"
+2017-10-26 22:56:23.126 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.TokenEndpoint" for "/connect/token"
+2017-10-26 22:56:23.134 -04:00 [Debug] Start token request.
+2017-10-26 22:56:23.142 -04:00 [Debug] Start client validation
+2017-10-26 22:56:23.149 -04:00 [Debug] Start parsing Basic Authentication secret
+2017-10-26 22:56:23.154 -04:00 [Debug] Start parsing for secret in post body
+2017-10-26 22:56:23.155 -04:00 [Debug] Parser found secret: "PostBodySecretParser"
+2017-10-26 22:56:23.164 -04:00 [Debug] Secret id found: "mvc.hybrid"
+2017-10-26 22:56:23.189 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:23.200 -04:00 [Debug] Secret validator success: "HashedSharedSecretValidator"
+2017-10-26 22:56:23.201 -04:00 [Debug] Client validation success
+2017-10-26 22:56:23.208 -04:00 [Debug] Start token request validation
+2017-10-26 22:56:23.219 -04:00 [Debug] Start validation of authorization code token request
+2017-10-26 22:56:23.235 -04:00 [Debug] "xPXZTtxyAmh9klX1NJV72PJh7oC19PQ+npWwK6caD0A=" found in database: True
+2017-10-26 22:56:23.253 -04:00 [Debug] removing "xPXZTtxyAmh9klX1NJV72PJh7oC19PQ+npWwK6caD0A=" persisted grant from database
+2017-10-26 22:56:23.260 -04:00 [Debug] Validation of authorization code token request success
+2017-10-26 22:56:23.268 -04:00 [Information] Token request validation success
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"GrantType\": \"authorization_code\",
+  \"AuthorizationCode\": \"6b86986dc90005252e8e8e67668571c07f53c8d1c6c14e77c7f09060954ade0f\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"client_secret\": \"***REDACTED***\",
+    \"code\": \"6b86986dc90005252e8e8e67668571c07f53c8d1c6c14e77c7f09060954ade0f\",
+    \"grant_type\": \"authorization_code\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\"
+  }
+}"
+2017-10-26 22:56:23.283 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:23.285 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:23.288 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:23.298 -04:00 [Debug] Getting claims for access token for client: "mvc.hybrid"
+2017-10-26 22:56:23.299 -04:00 [Debug] Getting claims for access token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:56:23.316 -04:00 [Debug] Creating refresh token
+2017-10-26 22:56:23.316 -04:00 [Debug] Setting an absolute lifetime: 2592000
+2017-10-26 22:56:23.336 -04:00 [Debug] "6SxWYTWpp9LNvCRZ7O2h0a917F9pBcGtQLNNpjsfCHE=" not found in database
+2017-10-26 22:56:23.355 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:23.356 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:23.359 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:23.360 -04:00 [Debug] Getting claims for identity token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6" and client: "mvc.hybrid"
+2017-10-26 22:56:23.360 -04:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-26 22:56:23.367 -04:00 [Debug] Token request success.
+2017-10-26 22:56:23.376 -04:00 [Debug] Request path "/connect/userinfo" matched to endpoint type "Userinfo"
+2017-10-26 22:56:23.378 -04:00 [Debug] Endpoint enabled: "Userinfo", successfully created handler: "IdentityServer4.Endpoints.UserInfoEndpoint"
+2017-10-26 22:56:23.378 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.UserInfoEndpoint" for "/connect/userinfo"
+2017-10-26 22:56:23.385 -04:00 [Debug] Start userinfo request
+2017-10-26 22:56:23.389 -04:00 [Debug] Bearer token found in header
+2017-10-26 22:56:23.421 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:23.456 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:23.460 -04:00 [Debug] Token validation success
+"{
+  \"ValidateLifetime\": true,
+  \"AccessTokenType\": \"Jwt\",
+  \"ExpectedScope\": \"openid\",
+  \"Claims\": {
+    \"nbf\": 1509072983,
+    \"exp\": 1509076583,
+    \"iss\": \"http://localhost:5000\",
+    \"aud\": [
+      \"http://localhost:5000/resources\",
+      \"api1\"
+    ],
+    \"client_id\": \"mvc.hybrid\",
+    \"sub\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+    \"auth_time\": 1509072976,
+    \"idp\": \"Twitter\",
+    \"scope\": [
+      \"openid\",
+      \"profile\",
+      \"phone\",
+      \"email\",
+      \"api1\",
+      \"offline_access\"
+    ],
+    \"amr\": \"external\"
+  }
+}"
+2017-10-26 22:56:23.466 -04:00 [Debug] Creating userinfo response
+2017-10-26 22:56:23.470 -04:00 [Debug] Scopes in access token: "openid profile phone email api1 offline_access"
+2017-10-26 22:56:23.474 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:23.476 -04:00 [Debug] Requested claim types: "sub updated_at locale zoneinfo birthdate gender website profile preferred_username nickname middle_name given_name family_name name picture phone_number_verified phone_number email email_verified"
+2017-10-26 22:56:23.479 -04:00 [Information] Profile service returned to the following claim types: "sub preferred_username name email email_verified"
+2017-10-26 22:56:23.480 -04:00 [Debug] End userinfo request
+2017-10-26 22:56:29.087 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:29.088 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:29.089 -04:00 [Debug] Request path "/connect/endsession" matched to endpoint type "Endsession"
+2017-10-26 22:56:29.090 -04:00 [Debug] Endpoint enabled: "Endsession", successfully created handler: "IdentityServer4.Endpoints.EndSessionEndpoint"
+2017-10-26 22:56:29.090 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.EndSessionEndpoint" for "/connect/endsession"
+2017-10-26 22:56:29.094 -04:00 [Debug] Processing signout request for "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:56:29.100 -04:00 [Debug] Start end session request validation
+2017-10-26 22:56:29.105 -04:00 [Debug] Start identity token validation
+2017-10-26 22:56:29.111 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:29.112 -04:00 [Debug] Client found: "mvc.hybrid" / null
+2017-10-26 22:56:29.114 -04:00 [Debug] Calling into custom token validator: "IdentityServer4.Validation.DefaultCustomTokenValidator"
+2017-10-26 22:56:29.120 -04:00 [Debug] Token validation success
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"ValidateLifetime\": false,
+  \"Claims\": {
+    \"nbf\": 1509072983,
+    \"exp\": 1509073283,
+    \"iss\": \"http://localhost:5000\",
+    \"aud\": \"mvc.hybrid\",
+    \"nonce\": \"636446697720100064.Mzc4YTQ4NDgtOGZlMy00YTFiLTliY2QtZDlkYjI2Y2MxNGI5YmYwN2VjZjYtYTRjZS00ODQxLTllMDItZDMwMjFlODhjZDky\",
+    \"iat\": 1509072983,
+    \"at_hash\": \"4NxpmbWCFKMlu_dnl4yOlw\",
+    \"sid\": \"86b1df0957e576eca321057485abf33c\",
+    \"sub\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+    \"auth_time\": 1509072976,
+    \"idp\": \"Twitter\",
+    \"amr\": \"external\"
+  }
+}"
+2017-10-26 22:56:29.125 -04:00 [Information] End session request validation success
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"PostLogOutUri\": \"http://localhost:5002/signout-callback-oidc\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxZmPgP13vmequZBvoAoL_3Zu0GVX6q4-GYpAXb05LU1vff3yVL5gJlbao3VXfeWXxgUJ53AAUJXcK1ywy9hAEqxAgCixAG98W89kJ1QrwSZA9hRJoVYC6u9CPVqmh99vWtSORUVr7EL7iZfbgTQLZqj\",
+  \"Raw\": {
+    \"post_logout_redirect_uri\": \"http://localhost:5002/signout-callback-oidc\",
+    \"id_token_hint\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6IjA0YmM1NGJkM2Q1YzkzMWRhMjM1MTY4YzM4MmFlM2Q3IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1MDkwNzI5ODMsImV4cCI6MTUwOTA3MzI4MywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoibXZjLmh5YnJpZCIsIm5vbmNlIjoiNjM2NDQ2Njk3NzIwMTAwMDY0Lk16YzRZVFE0TkRndE9HWmxNeTAwWVRGaUxUbGlZMlF0WkRsa1lqSTJZMk14TkdJNVltWXdOMlZqWmpZdFlUUmpaUzAwT0RReExUbGxNREl0WkRNd01qRmxPRGhqWkRreSIsImlhdCI6MTUwOTA3Mjk4MywiYXRfaGFzaCI6IjROeHBtYldDRktNbHVfZG5sNHlPbHciLCJzaWQiOiI4NmIxZGYwOTU3ZTU3NmVjYTMyMTA1NzQ4NWFiZjMzYyIsInN1YiI6ImJjOGEzNDUzLTY2YTYtNDhlOS04NGU2LWIwOGJkMjM5MjFlNiIsImF1dGhfdGltZSI6MTUwOTA3Mjk3NiwiaWRwIjoiVHdpdHRlciIsImFtciI6WyJleHRlcm5hbCJdfQ.dh3k7wpF8oDisQT6_7n4kWHEfF7d7ZdB-RDnae8LuDv2ZPzhdVFTgKMoVuEfu9jOIQLCfnh6RCfmIV3JDlgWKwB_FqXz_kXN85z2qWTRCcMEkuBRvCXuPsZN_fYV2iXfvw9d_CmWol9G8R1sVqttPsq0Bh5xhDZqCt4u6rbnuUz2wxqXJG-RR20-wxGa2PyhgpqsHqnReEGnGjkvoTDMaJHsKVPj47ByXHt_lE3Rlk6ys7XryQtQV66K4Q6Qloj4pMSd6obqN2EFXOg3Pcxu-I4Kohd9mnNdWULp1AjtHTWPRvL6AfUiZae2LFdSEs8Jke7iyAGHJuh4ve25SogP6w\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxZmPgP13vmequZBvoAoL_3Zu0GVX6q4-GYpAXb05LU1vff3yVL5gJlbao3VXfeWXxgUJ53AAUJXcK1ywy9hAEqxAgCixAG98W89kJ1QrwSZA9hRJoVYC6u9CPVqmh99vWtSORUVr7EL7iZfbgTQLZqj\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:56:29.126 -04:00 [Debug] Success validating end session request from "mvc.hybrid"
+2017-10-26 22:56:29.171 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:29.172 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:29.216 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:56:29.216 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:56:29.217 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:56:29.218 -04:00 [Information] User logged out.
+2017-10-26 22:56:29.277 -04:00 [Debug] Request path "/connect/endsession/callback" matched to endpoint type "Endsession"
+2017-10-26 22:56:29.279 -04:00 [Debug] Endpoint enabled: "Endsession", successfully created handler: "IdentityServer4.Endpoints.EndSessionCallbackEndpoint"
+2017-10-26 22:56:29.280 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.EndSessionCallbackEndpoint" for "/connect/endsession/callback"
+2017-10-26 22:56:29.287 -04:00 [Debug] Processing signout callback request
+2017-10-26 22:56:29.307 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:29.308 -04:00 [Debug] No client front-channel logout URLs
+2017-10-26 22:56:29.308 -04:00 [Debug] No client back-channel logout URLs
+2017-10-26 22:56:29.308 -04:00 [Information] Successful signout callback.
+2017-10-26 22:56:29.309 -04:00 [Debug] No client front-channel iframe urls
+2017-10-26 22:56:29.309 -04:00 [Debug] No client back-channel iframe urls
+2017-10-26 22:56:44.132 -04:00 [Debug] Request path "/connect/authorize" matched to endpoint type "Authorize"
+2017-10-26 22:56:44.133 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-26 22:56:44.134 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-26 22:56:44.134 -04:00 [Debug] Start authorize request
+2017-10-26 22:56:44.135 -04:00 [Debug] No user present in authorize request
+2017-10-26 22:56:44.135 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:56:44.139 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:44.139 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:56:44.140 -04:00 [Debug] No PKCE used.
+2017-10-26 22:56:44.142 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:44.146 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:44.148 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:44.152 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:44.152 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:56:44.153 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile phone email api1 offline_access\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxbeHfMRRd3beXQ0WbbPEciGWFrHxDQ143rRNQ6RC_gMKSeItKzw3x5LlyMcw9uj4oYm4o93G6luXwOdQuMGGApDoxWUaGQq4UnQtkrHY45HOKypkmMU1sSk3mdEkTnqHgzvgigjbNpIlAomxOINxQrhhUmuszVNzRSJZ_vf_1F68NmEyUhDbbZVuuzuauvQ2qDXVzZeuXIxLOztg0xBmTLPCLlIizmu7sp4IzJYZcWEEH5F89boLstNp1SHZhGOtUHgqkBomiEiXP3RRdjDlcpq\",
+  \"Nonce\": \"636446698041273139.MmVhNjhkYWItYjMyOC00NWQyLWFkZjktMTAzZjRkOTY1YzgzYTVlN2NiNzItMjRjYS00NWM0LTg0ZTctYjkzNDlmYmVmOGRl\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile phone email api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636446698041273139.MmVhNjhkYWItYjMyOC00NWQyLWFkZjktMTAzZjRkOTY1YzgzYTVlN2NiNzItMjRjYS00NWM0LTg0ZTctYjkzNDlmYmVmOGRl\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxbeHfMRRd3beXQ0WbbPEciGWFrHxDQ143rRNQ6RC_gMKSeItKzw3x5LlyMcw9uj4oYm4o93G6luXwOdQuMGGApDoxWUaGQq4UnQtkrHY45HOKypkmMU1sSk3mdEkTnqHgzvgigjbNpIlAomxOINxQrhhUmuszVNzRSJZ_vf_1F68NmEyUhDbbZVuuzuauvQ2qDXVzZeuXIxLOztg0xBmTLPCLlIizmu7sp4IzJYZcWEEH5F89boLstNp1SHZhGOtUHgqkBomiEiXP3RRdjDlcpq\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:56:44.153 -04:00 [Information] Showing login: User is not authenticated
+2017-10-26 22:56:44.160 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:56:46.958 -04:00 [Information] AuthenticationScheme: "Twitter" was challenged.
+2017-10-26 22:56:50.705 -04:00 [Information] AuthenticationScheme: "Identity.External" signed in.
+2017-10-26 22:56:50.711 -04:00 [Information] AuthenticationScheme: "Identity.External" was successfully authenticated.
+2017-10-26 22:56:50.715 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:56:50.718 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:56:50.718 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:56:50.719 -04:00 [Information] User logged in with "Twitter" provider.
+2017-10-26 22:56:50.742 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:50.745 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:50.746 -04:00 [Debug] Request path "/connect/authorize/callback" matched to endpoint type "Authorize"
+2017-10-26 22:56:50.746 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint"
+2017-10-26 22:56:50.747 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint" for "/connect/authorize/callback"
+2017-10-26 22:56:50.750 -04:00 [Debug] Start authorize callback request
+2017-10-26 22:56:50.753 -04:00 [Debug] User in authorize request: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:56:50.757 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:56:50.769 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:50.770 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:56:50.770 -04:00 [Debug] No PKCE used.
+2017-10-26 22:56:50.772 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:50.775 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:50.776 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:50.779 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:50.780 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:56:50.780 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile phone email api1 offline_access\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxbeHfMRRd3beXQ0WbbPEciGWFrHxDQ143rRNQ6RC_gMKSeItKzw3x5LlyMcw9uj4oYm4o93G6luXwOdQuMGGApDoxWUaGQq4UnQtkrHY45HOKypkmMU1sSk3mdEkTnqHgzvgigjbNpIlAomxOINxQrhhUmuszVNzRSJZ_vf_1F68NmEyUhDbbZVuuzuauvQ2qDXVzZeuXIxLOztg0xBmTLPCLlIizmu7sp4IzJYZcWEEH5F89boLstNp1SHZhGOtUHgqkBomiEiXP3RRdjDlcpq\",
+  \"Nonce\": \"636446698041273139.MmVhNjhkYWItYjMyOC00NWQyLWFkZjktMTAzZjRkOTY1YzgzYTVlN2NiNzItMjRjYS00NWM0LTg0ZTctYjkzNDlmYmVmOGRl\",
+  \"SessionId\": \"01e0bc0a9b7f5b06375630d6481fb702\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile phone email api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636446698041273139.MmVhNjhkYWItYjMyOC00NWQyLWFkZjktMTAzZjRkOTY1YzgzYTVlN2NiNzItMjRjYS00NWM0LTg0ZTctYjkzNDlmYmVmOGRl\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxbeHfMRRd3beXQ0WbbPEciGWFrHxDQ143rRNQ6RC_gMKSeItKzw3x5LlyMcw9uj4oYm4o93G6luXwOdQuMGGApDoxWUaGQq4UnQtkrHY45HOKypkmMU1sSk3mdEkTnqHgzvgigjbNpIlAomxOINxQrhhUmuszVNzRSJZ_vf_1F68NmEyUhDbbZVuuzuauvQ2qDXVzZeuXIxLOztg0xBmTLPCLlIizmu7sp4IzJYZcWEEH5F89boLstNp1SHZhGOtUHgqkBomiEiXP3RRdjDlcpq\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:56:50.782 -04:00 [Debug] Scopes contains offline_access, consent is required
+2017-10-26 22:56:50.782 -04:00 [Information] Showing consent: User has not yet consented
+2017-10-26 22:56:50.787 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:50.788 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:50.789 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:56:50.794 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:50.794 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:56:50.794 -04:00 [Debug] No PKCE used.
+2017-10-26 22:56:50.796 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:50.799 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:50.800 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:50.803 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:50.803 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:56:50.808 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:50.810 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:50.813 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:50.832 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:50.833 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:50.902 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:50.903 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:52.871 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:52.872 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:52.874 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:56:52.879 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:52.879 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:56:52.880 -04:00 [Debug] No PKCE used.
+2017-10-26 22:56:52.881 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:52.884 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:52.886 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:52.889 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:52.890 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:56:52.895 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:52.896 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:56:52.896 -04:00 [Debug] Request path "/connect/authorize/callback" matched to endpoint type "Authorize"
+2017-10-26 22:56:52.897 -04:00 [Debug] Endpoint enabled: "Authorize", successfully created handler: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint"
+2017-10-26 22:56:52.897 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeCallbackEndpoint" for "/connect/authorize/callback"
+2017-10-26 22:56:52.898 -04:00 [Debug] Start authorize callback request
+2017-10-26 22:56:52.898 -04:00 [Debug] User in authorize request: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:56:52.899 -04:00 [Debug] Start authorize request protocol validation
+2017-10-26 22:56:52.903 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:52.903 -04:00 [Debug] Checking for PKCE parameters
+2017-10-26 22:56:52.904 -04:00 [Debug] No PKCE used.
+2017-10-26 22:56:52.905 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:52.909 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:52.911 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:52.914 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:52.915 -04:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-26 22:56:52.916 -04:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/signin-oidc\"
+  ],
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"GrantType\": \"hybrid\",
+  \"RequestedScopes\": \"openid profile phone email api1 offline_access\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxbeHfMRRd3beXQ0WbbPEciGWFrHxDQ143rRNQ6RC_gMKSeItKzw3x5LlyMcw9uj4oYm4o93G6luXwOdQuMGGApDoxWUaGQq4UnQtkrHY45HOKypkmMU1sSk3mdEkTnqHgzvgigjbNpIlAomxOINxQrhhUmuszVNzRSJZ_vf_1F68NmEyUhDbbZVuuzuauvQ2qDXVzZeuXIxLOztg0xBmTLPCLlIizmu7sp4IzJYZcWEEH5F89boLstNp1SHZhGOtUHgqkBomiEiXP3RRdjDlcpq\",
+  \"Nonce\": \"636446698041273139.MmVhNjhkYWItYjMyOC00NWQyLWFkZjktMTAzZjRkOTY1YzgzYTVlN2NiNzItMjRjYS00NWM0LTg0ZTctYjkzNDlmYmVmOGRl\",
+  \"SessionId\": \"01e0bc0a9b7f5b06375630d6481fb702\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile phone email api1 offline_access\",
+    \"response_mode\": \"form_post\",
+    \"nonce\": \"636446698041273139.MmVhNjhkYWItYjMyOC00NWQyLWFkZjktMTAzZjRkOTY1YzgzYTVlN2NiNzItMjRjYS00NWM0LTg0ZTctYjkzNDlmYmVmOGRl\",
+    \"state\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxbeHfMRRd3beXQ0WbbPEciGWFrHxDQ143rRNQ6RC_gMKSeItKzw3x5LlyMcw9uj4oYm4o93G6luXwOdQuMGGApDoxWUaGQq4UnQtkrHY45HOKypkmMU1sSk3mdEkTnqHgzvgigjbNpIlAomxOINxQrhhUmuszVNzRSJZ_vf_1F68NmEyUhDbbZVuuzuauvQ2qDXVzZeuXIxLOztg0xBmTLPCLlIizmu7sp4IzJYZcWEEH5F89boLstNp1SHZhGOtUHgqkBomiEiXP3RRdjDlcpq\",
+    \"x-client-SKU\": \"ID_NET\",
+    \"x-client-ver\": \"2.1.4.0\"
+  }
+}"
+2017-10-26 22:56:52.918 -04:00 [Debug] Scopes contains offline_access, consent is required
+2017-10-26 22:56:52.918 -04:00 [Information] User consented to scopes: ["openid", "profile", "phone", "email", "api1", "offline_access"]
+2017-10-26 22:56:52.920 -04:00 [Debug] Client allows remembering consent, and no scopes provided. Removing consent from consent store for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:56:52.921 -04:00 [Debug] no "VTOFnaJ2E/1AVtJcerS5MBjhQlVhNYEeXwOdFJBlH54=" persisted grant found in database
+2017-10-26 22:56:52.922 -04:00 [Debug] Creating Hybrid Flow response.
+2017-10-26 22:56:52.957 -04:00 [Debug] "jYf03Joo8u0GFqo0UFDkP67rI4A07UxPAIpIJG+8+K0=" not found in database
+2017-10-26 22:56:52.960 -04:00 [Debug] Creating Implicit Flow response.
+2017-10-26 22:56:52.961 -04:00 [Debug] Getting claims for identity token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6" and client: "mvc.hybrid"
+2017-10-26 22:56:52.961 -04:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-26 22:56:52.964 -04:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+  \"ClientId\": \"mvc.hybrid\",
+  \"RedirectUri\": \"http://localhost:5002/signin-oidc\",
+  \"State\": \"CfDJ8IsmZpP0jB1Gok9DETBvMxbeHfMRRd3beXQ0WbbPEciGWFrHxDQ143rRNQ6RC_gMKSeItKzw3x5LlyMcw9uj4oYm4o93G6luXwOdQuMGGApDoxWUaGQq4UnQtkrHY45HOKypkmMU1sSk3mdEkTnqHgzvgigjbNpIlAomxOINxQrhhUmuszVNzRSJZ_vf_1F68NmEyUhDbbZVuuzuauvQ2qDXVzZeuXIxLOztg0xBmTLPCLlIizmu7sp4IzJYZcWEEH5F89boLstNp1SHZhGOtUHgqkBomiEiXP3RRdjDlcpq\",
+  \"Scope\": \"openid profile phone email api1 offline_access\"
+}"
+2017-10-26 22:56:52.965 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:56:52.965 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:56:53.053 -04:00 [Debug] Request path "/connect/token" matched to endpoint type "Token"
+2017-10-26 22:56:53.054 -04:00 [Debug] Endpoint enabled: "Token", successfully created handler: "IdentityServer4.Endpoints.TokenEndpoint"
+2017-10-26 22:56:53.055 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.TokenEndpoint" for "/connect/token"
+2017-10-26 22:56:53.055 -04:00 [Debug] Start token request.
+2017-10-26 22:56:53.055 -04:00 [Debug] Start client validation
+2017-10-26 22:56:53.056 -04:00 [Debug] Start parsing Basic Authentication secret
+2017-10-26 22:56:53.056 -04:00 [Debug] Start parsing for secret in post body
+2017-10-26 22:56:53.056 -04:00 [Debug] Parser found secret: "PostBodySecretParser"
+2017-10-26 22:56:53.056 -04:00 [Debug] Secret id found: "mvc.hybrid"
+2017-10-26 22:56:53.062 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:53.063 -04:00 [Debug] Secret validator success: "HashedSharedSecretValidator"
+2017-10-26 22:56:53.063 -04:00 [Debug] Client validation success
+2017-10-26 22:56:53.064 -04:00 [Debug] Start token request validation
+2017-10-26 22:56:53.064 -04:00 [Debug] Start validation of authorization code token request
+2017-10-26 22:56:53.066 -04:00 [Debug] "jYf03Joo8u0GFqo0UFDkP67rI4A07UxPAIpIJG+8+K0=" found in database: True
+2017-10-26 22:56:53.082 -04:00 [Debug] removing "jYf03Joo8u0GFqo0UFDkP67rI4A07UxPAIpIJG+8+K0=" persisted grant from database
+2017-10-26 22:56:53.086 -04:00 [Debug] Validation of authorization code token request success
+2017-10-26 22:56:53.087 -04:00 [Information] Token request validation success
+"{
+  \"ClientId\": \"mvc.hybrid\",
+  \"GrantType\": \"authorization_code\",
+  \"AuthorizationCode\": \"edfd2fa13052940fe060b503ff11c8806103e6bbac652e98a742b0d910273195\",
+  \"Raw\": {
+    \"client_id\": \"mvc.hybrid\",
+    \"client_secret\": \"***REDACTED***\",
+    \"code\": \"edfd2fa13052940fe060b503ff11c8806103e6bbac652e98a742b0d910273195\",
+    \"grant_type\": \"authorization_code\",
+    \"redirect_uri\": \"http://localhost:5002/signin-oidc\"
+  }
+}"
+2017-10-26 22:56:53.091 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:53.094 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:53.099 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:53.100 -04:00 [Debug] Getting claims for access token for client: "mvc.hybrid"
+2017-10-26 22:56:53.100 -04:00 [Debug] Getting claims for access token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6"
+2017-10-26 22:56:53.108 -04:00 [Debug] Creating refresh token
+2017-10-26 22:56:53.108 -04:00 [Debug] Setting an absolute lifetime: 2592000
+2017-10-26 22:56:53.122 -04:00 [Debug] "MqOnXlTLK5Khafd+/z12uiELvhT8TNUZg3KihEcdec4=" not found in database
+2017-10-26 22:56:53.150 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:53.152 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:53.155 -04:00 [Debug] Found ["api1"] API scopes in database
+2017-10-26 22:56:53.156 -04:00 [Debug] Getting claims for identity token for subject: "bc8a3453-66a6-48e9-84e6-b08bd23921e6" and client: "mvc.hybrid"
+2017-10-26 22:56:53.156 -04:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-26 22:56:53.160 -04:00 [Debug] Token request success.
+2017-10-26 22:56:53.162 -04:00 [Debug] Request path "/connect/userinfo" matched to endpoint type "Userinfo"
+2017-10-26 22:56:53.163 -04:00 [Debug] Endpoint enabled: "Userinfo", successfully created handler: "IdentityServer4.Endpoints.UserInfoEndpoint"
+2017-10-26 22:56:53.164 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.UserInfoEndpoint" for "/connect/userinfo"
+2017-10-26 22:56:53.164 -04:00 [Debug] Start userinfo request
+2017-10-26 22:56:53.165 -04:00 [Debug] Bearer token found in header
+2017-10-26 22:56:53.175 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:53.182 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:56:53.183 -04:00 [Debug] Token validation success
+"{
+  \"ValidateLifetime\": true,
+  \"AccessTokenType\": \"Jwt\",
+  \"ExpectedScope\": \"openid\",
+  \"Claims\": {
+    \"nbf\": 1509073013,
+    \"exp\": 1509076613,
+    \"iss\": \"http://localhost:5000\",
+    \"aud\": [
+      \"http://localhost:5000/resources\",
+      \"api1\"
+    ],
+    \"client_id\": \"mvc.hybrid\",
+    \"sub\": \"bc8a3453-66a6-48e9-84e6-b08bd23921e6\",
+    \"auth_time\": 1509073010,
+    \"idp\": \"Twitter\",
+    \"scope\": [
+      \"openid\",
+      \"profile\",
+      \"phone\",
+      \"email\",
+      \"api1\",
+      \"offline_access\"
+    ],
+    \"amr\": \"external\"
+  }
+}"
+2017-10-26 22:56:53.183 -04:00 [Debug] Creating userinfo response
+2017-10-26 22:56:53.184 -04:00 [Debug] Scopes in access token: "openid profile phone email api1 offline_access"
+2017-10-26 22:56:53.186 -04:00 [Debug] Found ["openid", "profile", "phone", "email"] identity scopes in database
+2017-10-26 22:56:53.187 -04:00 [Debug] Requested claim types: "sub updated_at locale zoneinfo birthdate gender website profile preferred_username nickname middle_name given_name family_name name picture phone_number_verified phone_number email email_verified"
+2017-10-26 22:56:53.189 -04:00 [Information] Profile service returned to the following claim types: "sub preferred_username name email email_verified"
+2017-10-26 22:56:53.189 -04:00 [Debug] End userinfo request
+2017-10-26 22:57:14.393 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:57:14.393 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:57:14.414 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:57:14.416 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:57:14.545 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:57:14.546 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:57:15.969 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:57:15.970 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:57:15.995 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:57:15.999 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:57:16.121 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:57:16.121 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:57:23.959 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:57:23.960 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:57:23.962 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:57:23.963 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:57:23.963 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:57:23.964 -04:00 [Information] User logged out.
+2017-10-26 22:57:24.008 -04:00 [Debug] Request path "/connect/endsession/callback" matched to endpoint type "Endsession"
+2017-10-26 22:57:24.009 -04:00 [Debug] Endpoint enabled: "Endsession", successfully created handler: "IdentityServer4.Endpoints.EndSessionCallbackEndpoint"
+2017-10-26 22:57:24.009 -04:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.EndSessionCallbackEndpoint" for "/connect/endsession/callback"
+2017-10-26 22:57:24.010 -04:00 [Debug] Processing signout callback request
+2017-10-26 22:57:24.017 -04:00 [Debug] "mvc.hybrid" found in database: True
+2017-10-26 22:57:24.018 -04:00 [Debug] No client front-channel logout URLs
+2017-10-26 22:57:24.018 -04:00 [Debug] No client back-channel logout URLs
+2017-10-26 22:57:24.018 -04:00 [Information] Successful signout callback.
+2017-10-26 22:57:24.019 -04:00 [Debug] No client front-channel iframe urls
+2017-10-26 22:57:24.019 -04:00 [Debug] No client back-channel iframe urls
+2017-10-26 22:59:10.117 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:59:11.732 -04:00 [Debug] Augmenting SignInContext
+2017-10-26 22:59:11.734 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2017-10-26 22:59:11.734 -04:00 [Information] User logged in.
+2017-10-26 22:59:11.739 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:59:11.739 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:59:11.761 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:59:11.762 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:59:11.859 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:59:11.859 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:59:24.636 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:59:24.640 -04:00 [Information] AuthenticationScheme: "Identity.Application" was successfully authenticated.
+2017-10-26 22:59:24.642 -04:00 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2017-10-26 22:59:24.642 -04:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2017-10-26 22:59:24.643 -04:00 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2017-10-26 22:59:24.643 -04:00 [Information] User logged out.
+2017-10-26 23:54:47.192 -04:00 [Information] Clearing 0 tokens
+2017-10-27 00:54:49.248 -04:00 [Information] Clearing 0 tokens
+2017-10-27 01:54:53.864 -04:00 [Information] Clearing 0 tokens
+2017-10-27 02:54:56.173 -04:00 [Information] Clearing 0 tokens
+2017-10-27 03:54:58.230 -04:00 [Information] Clearing 0 tokens
+2017-10-27 04:55:01.063 -04:00 [Information] Clearing 0 tokens
+2017-10-27 05:55:09.610 -04:00 [Information] Clearing 0 tokens
+2017-10-27 06:55:12.788 -04:00 [Information] Clearing 0 tokens
+2017-10-27 07:55:15.056 -04:00 [Information] Clearing 0 tokens
+2017-10-27 08:55:17.223 -04:00 [Information] Clearing 0 tokens
+2017-10-27 09:55:19.476 -04:00 [Information] Clearing 0 tokens
+2017-10-27 10:55:21.828 -04:00 [Information] Clearing 0 tokens

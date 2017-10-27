@@ -1,22 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using Host.Models;
+﻿using Host.Models;
 using Host.Models.AccountViewModels;
 using Host.Services;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using IdentityServer4.Quickstart.UI;
 using IdentityServer4.Services;
 using IdentityServer4.Stores;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace Host.Controllers
 {
@@ -282,6 +278,8 @@ namespace Host.Controllers
         {
             var vm = await _account.BuildLoggedOutViewModelAsync(model.LogoutId);
 
+//            vm.AutomaticRedirectAfterSignOut = true;
+
             await _signInManager.SignOutAsync();
             _logger.LogInformation("User logged out.");
 
@@ -297,7 +295,11 @@ namespace Host.Controllers
                 // hack: try/catch to handle social providers that throw
                 return SignOut(new AuthenticationProperties { RedirectUri = url }, vm.ExternalAuthenticationScheme);
             }
-//            return RedirectToAction("Index", "Home");
+
+            if (vm.AutomaticRedirectAfterSignOut && vm.PostLogoutRedirectUri == null)
+                vm.PostLogoutRedirectUri = "/";
+//                return RedirectToAction("Index", "Home");
+
             return View("LoggedOut", vm);
         }
 
