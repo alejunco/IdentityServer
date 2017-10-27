@@ -1,11 +1,4 @@
-﻿using System;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using IdentityServer4.AccessTokenValidation;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -74,6 +67,8 @@ namespace WebAPI
 //                    options.ApiName = "api1";
 //                    options.ApiSecret = "secret";
 //                });
+
+            //New Test
 
             services.AddTransient<IValueService, ValueManager>();
         }
