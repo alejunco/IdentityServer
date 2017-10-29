@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using IdentityServer4.AccessTokenValidation;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -54,21 +55,17 @@ namespace WebAPI
                 })
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
-
-            services.AddAuthentication();
           
 
-//            services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
-//                .AddIdentityServerAuthentication(options =>
-//                {
-//                    options.Authority = "http://localhost:5000";
-//                    options.RequireHttpsMetadata = false;
-//
-//                    options.ApiName = "api1";
-//                    options.ApiSecret = "secret";
-//                });
+            services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
+                .AddIdentityServerAuthentication(options =>
+                {
+                    options.Authority = "http://localhost:5000";
+                    options.RequireHttpsMetadata = false;
 
-            //New Test
+                    options.ApiName = "api1";
+                    options.ApiSecret = "secret";
+                });
 
             services.AddTransient<IValueService, ValueManager>();
         }
