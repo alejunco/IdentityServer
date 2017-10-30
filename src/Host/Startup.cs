@@ -14,8 +14,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System.Linq;
 using System.Reflection;
-using IdentityServer4.Services;
-using Microsoft.IdentityModel.Tokens;
 
 namespace Host
 {
