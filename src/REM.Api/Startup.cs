@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -6,15 +7,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
+using PhoneNumbers;
+using REM.Api.Configuration;
 using REM.Api.Controllers;
 using System.IO;
 using System.Linq;
-using System.Runtime.Serialization;
 using System.Security.Claims;
 using System.Text;
-using Microsoft.AspNetCore.Authentication;
-using PhoneNumbers;
-using REM.Api.Configuration;
 
 namespace REM.Api
 {
@@ -30,15 +29,21 @@ namespace REM.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
             services.AddDbContext<RemDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+
             services.AddIdentity<ApplicationUser, IdentityRole>(options =>
                 {
-                    
+//                    options.User.AllowedUserNameCharacters = "0123456789+";
                 })
                 .AddEntityFrameworkStores<RemDbContext>()
                 .AddDefaultTokenProviders();
+
+            services
+                .AddAuthentication()
+                .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme);
 
             services.AddMvc();
         }
@@ -53,6 +58,8 @@ namespace REM.Api
 
             // this will do the initial DB population
             InitializeDatabase(app);
+
+            app.UseAuthentication();
 
             app.Use(async (context, next) =>
             {
@@ -79,50 +86,88 @@ namespace REM.Api
                                 }
                                 else
                                 {
-                                    //TODO validate hash
-                                    //if not -> Log and respond forbidden 403
+                                    // validate hash
 
-                                    var phoneUtil = PhoneNumberUtil.GetInstance();
-                                    var phone = phoneUtil.Parse("+" + emailDto.Phone, "");
-
-                                    if (phone==null)
-                                        context.Response.StatusCode = 401;
+                                    if (!BCrypt.Net.BCrypt.Verify(emailDto.DeviceId + emailDto.Phone + emailDto.Subject,
+                                        emailDto.Secret))
+                                    {
+                                        //if not -> Log and respond forbidden 403
+                                        context.Response.StatusCode = 403;
+                                    }
                                     else
                                     {
-                                        //validate phone is from a restricted country
-                                        //if not -> forbidden 403    
-                                        if (RestrictedCountryCodes.Get().All(code => code != phone.CountryCode))
-                                            context.Response.StatusCode = 403;
+
+                                        var phoneUtil = PhoneNumberUtil.GetInstance();
+                                        var phone = phoneUtil.Parse("+" + emailDto.Phone, "");
+
+                                        if (phone == null)
+                                            context.Response.StatusCode = 401;
                                         else
                                         {
-                                            //check if phone already exist
-                                            //if not -> create new account
-
-                                            var remDbContext = context.RequestServices.GetService<RemDbContext>();
-                                            var user = await remDbContext.Users.FirstOrDefaultAsync(x => x.UserName == emailDto.Phone);
-                                            if (user == null)
+                                            //validate phone is from a restricted country
+                                            //if not -> forbidden 403    
+                                            if (RestrictedCountryCodes.Get().All(code => code != phone.CountryCode))
+                                                context.Response.StatusCode = 403;
+                                            else
                                             {
-                                                user = new ApplicationUser()
+                                                //check if phone already exist
+                                                //if not -> create new account
+
+                                                var userManager =
+                                                    context.RequestServices.GetService<UserManager<ApplicationUser>>();
+
+                                                var user = await userManager.FindByNameAsync(emailDto.Phone);
+
+                                                if (user == null)
                                                 {
-                                                    UserName = emailDto.Phone,
-                                                    PhoneNumber = emailDto.Phone,
-                                                    PasswordHash = BCrypt.Net.BCrypt.HashPassword("secret")
-                                                };
+                                                    user = new ApplicationUser()
+                                                    {
+                                                        UserName = emailDto.Phone,
+                                                        PhoneNumber = emailDto.Phone
+                                                    };
 
-                                                remDbContext.Add(user);
+                                                    if (emailDto.Pdmr.ToLower() == Constants.RemAuth.Pdmr.Automatic)
+                                                        user.PhoneNumberConfirmed = true;
 
-                                                await remDbContext.SaveChangesAsync();
+                                                    await userManager.CreateAsync(user);
+
+                                                    await userManager.AddClaimAsync(user,
+                                                        new Claim("Name", emailDto.Phone));
+
+                                                }
+
+                                                //SignIn User
+
+                                                #region SignIn Method One Using SignInManager
+
+                                                var signInManager =
+                                                    context.RequestServices
+                                                        .GetService<SignInManager<ApplicationUser>>();
+
+                                                await signInManager.SignInAsync(user, isPersistent: false,
+                                                    authenticationMethod: "hash");
+
+                                                #endregion
+
+                                                #region SignIn Method Two Using HttpContext SignIn Method
+
+//                                            var identity =
+//                                                new ClaimsIdentity(await userManager.GetClaimsAsync(user), "password");
+//
+//                                            await context.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+//                                                new ClaimsPrincipal(identity));
+//
+//                                            var p = new ClaimsPrincipal(identity);
+
+                                                #endregion
+
+                                                var bytesToWrite = Encoding.UTF8.GetBytes(jsonData);
+                                                injectedRequestStream.Write(bytesToWrite, 0, bytesToWrite.Length);
+                                                injectedRequestStream.Seek(0, SeekOrigin.Begin);
+                                                context.Request.Body = injectedRequestStream;
+
+                                                await next();
                                             }
-
-                                            //TODO add user to principal
-//                                            context.SignInAsync("", new ClaimsPrincipal())
-
-                                            var bytesToWrite = Encoding.UTF8.GetBytes(jsonData);
-                                            injectedRequestStream.Write(bytesToWrite, 0, bytesToWrite.Length);
-                                            injectedRequestStream.Seek(0, SeekOrigin.Begin);
-                                            context.Request.Body = injectedRequestStream;
-
-                                            await next();
                                         }
                                     }
                                 }
@@ -139,7 +184,9 @@ namespace REM.Api
                     await next();
                 }
             });
-            
+
+
+
             app.UseMvcWithDefaultRoute();
         }
 

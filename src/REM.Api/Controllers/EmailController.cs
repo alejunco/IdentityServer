@@ -1,14 +1,13 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using System.Security.Claims;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 
 namespace REM.Api.Controllers
 {
     [Route("api/email")]
-    public class Email : Controller
+    public class EmailController : Controller
     {
         // GET api/values
         [HttpGet]
@@ -28,7 +27,10 @@ namespace REM.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]EmailDto email)
         {
-            return Ok($"email from {email.Phone} Posted");
+            var user = HttpContext.User;
+            var authenticationMethod = user.Claims.FirstOrDefault(c => c.Type == ClaimTypes.AuthenticationMethod)?.Value;
+
+            return Ok($"email from {email.Phone} Posted. Using Authentication Method: {authenticationMethod}");
         }
 
         // PUT api/values/5
@@ -50,5 +52,15 @@ namespace REM.Api.Controllers
         public string From { get; set; }
         public string DeviceId { get; set; }
         public string Phone { get; set; }
+        /// <summary>
+        /// Phone Detection Method Reference
+        /// </summary>
+        public string Pdmr { get; set; }
+        /// <summary>
+        /// Hashed Secret DeviceId + Phone + Subject
+        /// </summary>
+        public string Secret { get; set; }
     }
+
+
 }
