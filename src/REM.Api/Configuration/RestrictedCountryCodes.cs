@@ -8,7 +8,8 @@ namespace REM.Api.Configuration
         {
             return new List<int>()
             {
-                53
+                53,
+                52
             };
         }
     }
