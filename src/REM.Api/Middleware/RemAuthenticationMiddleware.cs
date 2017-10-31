@@ -178,6 +178,8 @@ namespace REM.Api.Middleware
 
                         #endregion
 
+                        //New Feature in the development branch
+
                         // Call the next delegate / middleware in the pipeline
                         await this._next(context);
                     }
