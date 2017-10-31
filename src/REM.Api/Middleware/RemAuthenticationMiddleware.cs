@@ -44,6 +44,8 @@ namespace REM.Api.Middleware
                 {
                     using (var bodyReader = new StreamReader(context.Request.Body))
                     {
+                        #region Build EmailDto from Request.Body
+
                         var jsonData = bodyReader.ReadToEnd();
 
                         var emailDto = JsonConvert.DeserializeObject<EmailDto>(jsonData);
@@ -54,11 +56,18 @@ namespace REM.Api.Middleware
                             return;
                         }
 
+
+                        #endregion
+
+                        #region Validate DeviceId, Phone and Secret fields aren't null or Empty
+
                         if (string.IsNullOrWhiteSpace(emailDto.DeviceId) || string.IsNullOrWhiteSpace(emailDto.Phone) || (_options.EnforceHashValidation && string.IsNullOrEmpty(emailDto.Secret)))
                         {
                             context.Response.StatusCode = 404;
                             return;
                         }
+
+                        #endregion
 
                         #region Validate Hash
 
@@ -82,6 +91,8 @@ namespace REM.Api.Middleware
 
                         #endregion
 
+                        #region Build valid PhoneNumber object from request
+
                         var phoneUtil = PhoneNumberUtil.GetInstance();
                         var phone = phoneUtil.Parse("+" + emailDto.Phone, "");
 
@@ -91,6 +102,8 @@ namespace REM.Api.Middleware
                             return;
                         }
 
+                        #endregion
+
                         #region Validate Phone is from a Restricted Country
 
                         if (_options.RestrictedCountryCodes.All(code => code != phone.CountryCode))
@@ -99,10 +112,9 @@ namespace REM.Api.Middleware
                             return;
                         }
 
-                        #endregion  
+                        #endregion
 
-                        //check if phone already exist
-                        //if not -> create new account
+                        #region Check if exist user with the validated phone and create new user if doesn't exist
 
                         var userManager = context.RequestServices
                             .GetService<UserManager<ApplicationUser>>();
@@ -137,7 +149,9 @@ namespace REM.Api.Middleware
                                 ?.Value;
                         }
 
-                        #region Add ClaimsPricipal to context
+                        #endregion
+
+                        #region Add ClaimsPricipal to Http Context
 
                         var userClaimssList = await userManager.GetClaimsAsync(user);
 
