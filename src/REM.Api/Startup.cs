@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
+﻿using System;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -13,7 +15,11 @@ using REM.Api.Controllers;
 using System.IO;
 using System.Linq;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace REM.Api
 {
@@ -36,7 +42,6 @@ namespace REM.Api
 
             services.AddIdentity<ApplicationUser, IdentityRole>(options =>
                 {
-//                    options.User.AllowedUserNameCharacters = "0123456789+";
                 })
                 .AddEntityFrameworkStores<RemDbContext>()
                 .AddDefaultTokenProviders();
@@ -61,131 +66,7 @@ namespace REM.Api
 
             app.UseAuthentication();
 
-            app.Use(async (context, next) =>
-            {
-                if (context.Request.Path.StartsWithSegments("/api/email"))
-                {
-                    var injectedRequestStream = new MemoryStream();
-                    try
-                    {
-                        using (var bodyReader = new StreamReader(context.Request.Body))
-                        {
-                            var jsonData = bodyReader.ReadToEnd();
-
-                            var emailDto = JsonConvert.DeserializeObject<EmailDto>(jsonData);
-
-                            if (emailDto == null)
-                                context.Response.StatusCode = 400;
-
-                            else
-                            {
-                                if (string.IsNullOrWhiteSpace(emailDto.DeviceId) ||
-                                    string.IsNullOrWhiteSpace(emailDto.Phone))
-                                {
-                                    context.Response.StatusCode = 401;
-                                }
-                                else
-                                {
-                                    // validate hash
-
-                                    if (!BCrypt.Net.BCrypt.Verify(emailDto.DeviceId + emailDto.Phone + emailDto.Subject,
-                                        emailDto.Secret))
-                                    {
-                                        //if not -> Log and respond forbidden 403
-                                        context.Response.StatusCode = 403;
-                                    }
-                                    else
-                                    {
-
-                                        var phoneUtil = PhoneNumberUtil.GetInstance();
-                                        var phone = phoneUtil.Parse("+" + emailDto.Phone, "");
-
-                                        if (phone == null)
-                                            context.Response.StatusCode = 401;
-                                        else
-                                        {
-                                            //validate phone is from a restricted country
-                                            //if not -> forbidden 403    
-                                            if (RestrictedCountryCodes.Get().All(code => code != phone.CountryCode))
-                                                context.Response.StatusCode = 403;
-                                            else
-                                            {
-                                                //check if phone already exist
-                                                //if not -> create new account
-
-                                                var userManager =
-                                                    context.RequestServices.GetService<UserManager<ApplicationUser>>();
-
-                                                var user = await userManager.FindByNameAsync(emailDto.Phone);
-
-                                                if (user == null)
-                                                {
-                                                    user = new ApplicationUser()
-                                                    {
-                                                        UserName = emailDto.Phone,
-                                                        PhoneNumber = emailDto.Phone
-                                                    };
-
-                                                    if (emailDto.Pdmr.ToLower() == Constants.RemAuth.Pdmr.Automatic)
-                                                        user.PhoneNumberConfirmed = true;
-
-                                                    await userManager.CreateAsync(user);
-
-                                                    await userManager.AddClaimAsync(user,
-                                                        new Claim("Name", emailDto.Phone));
-
-                                                }
-
-                                                //SignIn User
-
-                                                #region SignIn Method One Using SignInManager
-
-                                                var signInManager =
-                                                    context.RequestServices
-                                                        .GetService<SignInManager<ApplicationUser>>();
-
-                                                await signInManager.SignInAsync(user, isPersistent: false,
-                                                    authenticationMethod: "hash");
-
-                                                #endregion
-
-                                                #region SignIn Method Two Using HttpContext SignIn Method
-
-//                                            var identity =
-//                                                new ClaimsIdentity(await userManager.GetClaimsAsync(user), "password");
-//
-//                                            await context.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-//                                                new ClaimsPrincipal(identity));
-//
-//                                            var p = new ClaimsPrincipal(identity);
-
-                                                #endregion
-
-                                                var bytesToWrite = Encoding.UTF8.GetBytes(jsonData);
-                                                injectedRequestStream.Write(bytesToWrite, 0, bytesToWrite.Length);
-                                                injectedRequestStream.Seek(0, SeekOrigin.Begin);
-                                                context.Request.Body = injectedRequestStream;
-
-                                                await next();
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    finally
-                    {
-                        injectedRequestStream.Dispose();
-                    }
-                }
-                else
-                {
-                    await next();
-                }
-            });
-
-
+//            app.UseRemAuthentication();
 
             app.UseMvcWithDefaultRoute();
         }
@@ -228,5 +109,176 @@ namespace REM.Api
 
     public class ApplicationUser : IdentityUser
     {
+    }
+
+    //
+    // Summary:
+    //     Extension methods to add authentication capabilities to an HTTP application pipeline.
+    public static class RemAuthAppBuilderExtensions
+    {
+        //
+        // Summary:
+        //     Adds the RemAuthenticationMiddleware to the
+        //     specified Microsoft.AspNetCore.Builder.IApplicationBuilder, which enables authentication
+        //     capabilities for Restricted Countries.
+        //
+        // Parameters:
+        //   app:
+        //     The Microsoft.AspNetCore.Builder.IApplicationBuilder to add the middleware to.
+        //
+        // Returns:
+        //     A reference to this instance after the operation has completed.
+        public static IApplicationBuilder UseRemAuthentication(this IApplicationBuilder app)
+        {
+            return app.UseMiddleware<RemAuthenticationMiddleware>();
+        }
+    }
+
+
+    public class RemAuthenticationMiddleware
+    {
+        private readonly RequestDelegate _next;
+
+        public RemAuthenticationMiddleware(RequestDelegate next)
+        {
+            _next = next;
+        }
+
+        public async Task Invoke(HttpContext context)
+        {
+            if (context.Request.Path.StartsWithSegments("/api/email"))
+            {
+                var injectedRequestStream = new MemoryStream();
+                try
+                {
+                    using (var bodyReader = new StreamReader(context.Request.Body))
+                    {
+                        var jsonData = bodyReader.ReadToEnd();
+
+                        var emailDto = JsonConvert.DeserializeObject<EmailDto>(jsonData);
+
+                        if (emailDto == null)
+                            context.Response.StatusCode = 400;
+
+                        else
+                        {
+                            if (string.IsNullOrWhiteSpace(emailDto.DeviceId) || string.IsNullOrWhiteSpace(emailDto.Phone))
+                            {
+                                context.Response.StatusCode = 401;
+                            }
+                            else
+                            {
+                                // validate hash
+                                var hash = "";
+                                using (var md5 = MD5.Create())
+                                {
+                                    var result = md5.ComputeHash(Encoding.ASCII.GetBytes(emailDto.DeviceId + emailDto.Phone + emailDto.Subject));
+                                    hash = Encoding.ASCII.GetString(result);
+                                }
+
+                                if (hash != emailDto.Secret)
+                                {
+                                    //if not -> Log and respond forbidden 403
+                                    context.Response.StatusCode = 403;
+                                }
+                                else
+                                {
+                                    var phoneUtil = PhoneNumberUtil.GetInstance();
+                                    var phone = phoneUtil.Parse("+" + emailDto.Phone, "");
+
+                                    if (phone == null)
+                                        context.Response.StatusCode = 401;
+                                    else
+                                    {
+                                        //validate phone is from a restricted country
+                                        //if not -> forbidden 403    
+                                        if (RestrictedCountryCodes.Get().All(code => code != phone.CountryCode))
+                                            context.Response.StatusCode = 403;
+                                        else
+                                        {
+                                            //check if phone already exist
+                                            //if not -> create new account
+
+                                            var userManager = context.RequestServices.GetService<UserManager<ApplicationUser>>();
+
+                                            var user = await userManager.FindByNameAsync(emailDto.Phone);
+
+                                            if (user == null)
+                                            {
+                                                user = new ApplicationUser()
+                                                {
+                                                    UserName = emailDto.Phone,
+                                                    PhoneNumber = emailDto.Phone
+                                                };
+
+
+                                                if (emailDto.Pdmr.ToLower() == Constants.RemAuth.Pdmr.Automatic)
+                                                    user.PhoneNumberConfirmed = true;
+
+                                                await userManager.CreateAsync(user);
+
+                                                await userManager.AddClaimAsync(user, new Claim("Name", emailDto.Phone));
+
+                                                await userManager.AddClaimAsync(user, new Claim(Constants.RemAuth.ClaimTypes.DeviceId, emailDto.DeviceId));
+                                            }
+                                            else
+                                            {
+                                                var userClaims = await userManager.GetClaimsAsync(user);
+
+                                                var deviceId = userClaims.FirstOrDefault(claim => claim.Type == Constants.RemAuth.ClaimTypes.DeviceId)
+                                                    ?.Value;
+                                            }
+
+                                            //SignIn User
+
+                                            #region SignIn Method One Using SignInManager
+
+                                            var signInManager = context.RequestServices.GetService<SignInManager<ApplicationUser>>();
+
+                                            await signInManager.SignInAsync(user, isPersistent: false, authenticationMethod: "hash");
+
+                                            #endregion
+
+                                            #region SignIn Method Two Using HttpContext SignIn Method
+
+                                            //                                            var identity =
+                                            //                                                new ClaimsIdentity(await userManager.GetClaimsAsync(user), "password");
+                                            //
+                                            //                                            await context.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                                            //                                                new ClaimsPrincipal(identity));
+                                            //
+                                            //                                            var p = new ClaimsPrincipal(identity);
+
+                                            #endregion
+
+                                            #region Rewrite Body Stream
+
+                                            var bytesToWrite = Encoding.UTF8.GetBytes(jsonData);
+                                            injectedRequestStream.Write(bytesToWrite, 0, bytesToWrite.Length);
+                                            injectedRequestStream.Seek(0, SeekOrigin.Begin);
+                                            context.Request.Body = injectedRequestStream;
+
+                                            #endregion
+
+                                            // Call the next delegate / middleware in the pipeline
+                                            await this._next(context);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                finally
+                {
+                    injectedRequestStream.Dispose();
+                }
+            }
+            else
+            {
+                // Call the next delegate / middleware in the pipeline
+                await this._next(context);
+            }
+        }
     }
 }
